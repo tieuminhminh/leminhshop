@@ -155,7 +155,7 @@
             <div class="col-sm-12">
                 <!-- LOGO START -->
                 <div class="logo">
-                    <a href="index.html"><img src="img/logo.png" alt="bstore logo" /></a>
+                    <a href="index.html"><img src="view/shop/lib/img/logo.png" alt="bstore logo" /></a>
                 </div>
                 <!-- LOGO END -->
                 <!-- HEADER-RIGHT-CALLUS START -->
@@ -229,7 +229,7 @@
                             <div class="shipping-item">
                                 <span class="cross-icon"><i class="fa fa-times-circle"></i></span>
                                 <div class="shipping-item-image">
-                                    <a href="#"><img src="img/shopping-image.jpg" alt="shopping image" /></a>
+                                    <a href="#"><img src="view/shop/lib/img/shopping-image.jpg" alt="shopping image" /></a>
                                 </div>
                                 <div class="shipping-item-text">
                                     <span>2 <span class="pro-quan-x">x</span> <a href="#" class="pro-cat">Watch</a></span>
@@ -240,7 +240,7 @@
                             <div class="shipping-item">
                                 <span class="cross-icon"><i class="fa fa-times-circle"></i></span>
                                 <div class="shipping-item-image">
-                                    <a href="#"><img src="img/shopping-image2.jpg" alt="shopping image" /></a>
+                                    <a href="#"><img src="view/shop/lib/img/shopping-image2.jpg" alt="shopping image" /></a>
                                 </div>
                                 <div class="shipping-item-text">
                                     <span>2 <span class="pro-quan-x">x</span> <a href="#" class="pro-cat">Women Bag</a></span>
