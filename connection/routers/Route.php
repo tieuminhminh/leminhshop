@@ -13,3 +13,9 @@ $Route['/admin'] = "controller/ShopController/admin";
 
 //category
 
+
+//front-end test
+$Route['/testFrontend'] = "controller/Test/testFrontend";
+
+//front-end test
+$Route['/testBackend'] = "controller/Test/testBackend";
