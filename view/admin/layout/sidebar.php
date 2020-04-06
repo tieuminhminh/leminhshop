@@ -38,7 +38,7 @@
                 <!-- Manage User Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-user-alt"></i>
                         <p>
                             Manage User
                             <i class="fas fa-angle-left right"></i>
@@ -75,9 +75,9 @@
                 <!-- Manage Product Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-list"></i>
                         <p>
-                           Manage Product
+                           Manage Category
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -115,6 +115,43 @@
                         <i class="nav-icon fas fa-archive"></i>
                         <p>
                             Manage Product
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>View Product</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Create Product</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Edit Product</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Delete Product</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Manage Product End -->
+                <!-- Manage Product Start -->
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-receipt"></i>
+                        <p>
+                            Manage Order
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>

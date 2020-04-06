@@ -10,6 +10,7 @@ $Route[''] = "controller/ShopController/homepage";
 //dashboard
 $Route['/admin'] = "controller/ShopController/admin";
 //products
+$Route['/createProduct'] = "controller/ProductsController/insert";
 
 //category
 
