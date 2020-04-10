@@ -25,7 +25,7 @@
             <div class="container-fluid">
                 <div class="card card-secondary">
                     <div class="card-header">
-                        <h3 class="card-title">Create Product</h3>
+                        <h3 class="card-title">Update Product</h3>
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
@@ -85,11 +85,11 @@
                             <!-- Product Category -->
                             <!-- Product Description -->
                             <div class="form-group row">
-                            <label for="sku" class="col-sm-2 col-form-label">Description</label>
-                                <div class="col-sm-10">
-                                <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
-                            </div>
-                            </div>
+                        <label for="sku" class="col-sm-2 col-form-label">Description</label>
+                        <div class="col-sm-10">
+                        <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
+                      </div>
+                      </div>
                             <!-- Product Description -->
                             <!-- Product Color -->
                             <div class="form-group row">
@@ -125,7 +125,7 @@
 
                     </form>
                     <div class="card-footer">
-                        <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="submit()">Create</button>
+                        <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="submit()">Update</button>
                         <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
                     </div>
                 </div>

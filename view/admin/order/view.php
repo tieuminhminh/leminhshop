@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Manage Product</h1>
+                        <h1 class="m-0 text-dark">Manage Order</h1>
                       
                     </div><!-- /.col -->
                     <div class="col-sm-6">
@@ -23,7 +23,7 @@
         <!-- /.content-header -->
 
         <!-- Main content -->
-  
+          
          
         <div class="row">
           <div class="col-12">
@@ -31,9 +31,24 @@
             <nav class="navbar navbar-expand navbar-secondary navbar-dark">
                      
             <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button>
+
+            
+                                
+                                
+                          
                       <!-- SEARCH FORM -->
-                      <form class="form-inline" style="margin-left:auto;">
                       
+                      <form class="form-inline" style="margin-left:auto;">
+                      <div class="col-sm">
+                                    <select class="form-control" style="height: 31px; width: 180px; font-size: 15px;">
+                                        <option>Ordered</option>
+                                        <option>Cancel Order</option>
+                                        <option>Paid</option>
+                                        <option>Delivery</option>
+                                        <option>Received</option>
+                                        <option>Done</option>
+                                    </select>
+                                </div>
                         <div class="input-group input-group-sm">
                           <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
                           
@@ -51,67 +66,78 @@
                   <thead>
                     <tr>
                       <th>#</th>
-                      <th>Avatar</th>
-                      <th>Product Name</th>
+                      <th>Username</th>
+                      <th>Email</th>
+                      <th>Address</th>
+                      <th>Product</th>
                       <th>Price</th>
-                      <th>Number</th>
-                      <th>Status</th>
+                      <th>Shipping Cost</th>
+                      <th>Total</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td><i class="fas fa-user-circle" style="font-size:40px; color:gray;"></i></td>
+                      <td>Minh Hang</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>Hanoi City</td>
                       <td>Jacket</td>
                       <td>4.000.000</td>
-                      <td>40</td>
-                      <td>active</td>
-                      
+                      <td>40.000</td>
+                      <td>4.040.000</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
                     <tr>
                       <td>2</td>
-                      <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Hoodie</td>
-                      <td>2.000.000</td>
-                      <td>20</td>
-                      <td>active</td>
+                      <td>Minh Hang</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>Hanoi City</td>
+                      <td>Jacket</td>
+                      <td>4.000.000</td>
+                      <td>40.000</td>
+                      <td>4.040.000</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
                     <tr>
                       <td>3</td>
-                      <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Sweater</td>
-                      <td>2.000.000</td>
-                      <td>20</td>
-                      <td>active</td>
+                      <td>Minh Hang</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>Hanoi City</td>
+                      <td>Jacket</td>
+                      <td>4.000.000</td>
+                      <td>40.000</td>
+                      <td>4.040.000</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
                     <tr>
                       <td>4</td>
-                      <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Dress</td>
-                      <td>2.500.000</td>
-                      <td>25</td>
-                      <td>active</td>
+                      <td>Minh Hang</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>Hanoi City</td>
+                      <td>Jacket</td>
+                      <td>4.000.000</td>
+                      <td>40.000</td>
+                      <td>4.040.000</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
                     <tr>
                       <td>5</td>
-                      <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Short Skirt</td>
-                      <td>1.500.000</td>
-                      <td>15</td>
-                      <td>active</td>
+                      <td>Minh Hang</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>Hanoi City</td>
+                      <td>Jacket</td>
+                      <td>4.000.000</td>
+                      <td>40.000</td>
+                      <td>4.040.000</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>

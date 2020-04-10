@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Manage Product</h1>
+                        <h1 class="m-0 text-dark">Manage User</h1>
                     </div><!-- /.col -->
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
@@ -23,35 +23,18 @@
         <!-- Main content -->
         <section class="content">
             <div class="container-fluid">
-                <div class="card card-secondary">
+                <div class="card card-secondary" style="color:gray;">
                     <div class="card-header">
-                        <h3 class="card-title">Create Product</h3>
+                        <h3 class="card-title">Create User</h3>
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
                     <form class="form-horizontal" enctype="multipart/form-data">
-                        <div class="card-body" style="color:gray;">
-                            <!-- Product Name -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Name</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="enter product name"
-                                           required>
-                                </div>
-                            </div>
-                            <!-- Product Name -->
-                            <!-- Product Price -->
-                            <div class="form-group row">
-                                <label for="price" class="col-sm-2 col-form-label">Price</label>
-                                <div class="col-sm-10">
-                                    <input type="number" class="form-control" id="price" name="price"
-                                           placeholder="enter product price" required>
-                                </div>
-                            </div>
-                            <!-- Product Price -->
-                            <!-- Product Image -->
-                            <div class="form-group row">
-                                <label for="image" class="col-sm-2 col-form-label">Image</label>
+                        <div class="card-body">
+
+                        <!-- User Avatrar -->
+                        <div class="form-group row">
+                                <label for="image" class="col-sm-2 col-form-label">Avatar</label>
                                 <div class="col-sm-10">
                                     <div class="input-group">
                                         <div class="custom-file">
@@ -66,61 +49,68 @@
                                         </div>
 
                                     </div>
-                                    
+                                   
                                 </div>
                             </div>
-                            <!-- Product Image -->
-                            <!-- Product Category -->
+                            <!-- User Avatar -->
+                            <!-- User Name -->
                             <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Category</label>
+                                <label for="sku" class="col-sm-2 col-form-label">Username</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="enter username"
+                                           required>
+                                </div>
+                            </div>
+                            
+                            <!-- User Name -->
+
+                            <!-- User Password -->
+                            <div class="form-group row">
+                                <label for="sku" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="enter password"
+                                           required>
+                                </div>
+                            </div>
+                            
+                            <!-- User Password -->
+
+                            <!-- User Email -->
+                            
+                            <div class="form-group row">
+                            <label for="sku" class="col-sm-2 col-form-label">Email</label>
+                                <div class="input-group-prepend col-sm-10">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                                </div>
+                            
+                            </div>
+                            <!-- User Email -->
+                            
+                            <!-- User Role -->
+                            <div class="form-group row">
+                                <label for="sku" class="col-sm-2 col-form-label">Role</label>
                                 <div class="col-sm-10">
                                     <select class="form-control">
-                                        <option>Category1</option>
-                                        <option>Category2</option>
-                                        <option>Category3</option>
-                                        <option>Category4</option>
+                                        <option>admin</option>
+                                        <option>user</option>
                                     </select>
                                 </div>
                             </div>
-                            <!-- Product Category -->
-                            <!-- Product Description -->
-                            <div class="form-group row">
-                            <label for="sku" class="col-sm-2 col-form-label">Description</label>
-                                <div class="col-sm-10">
-                                <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
-                            </div>
-                            </div>
-                            <!-- Product Description -->
-                            <!-- Product Color -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Color</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="color" name="color"
-                                           placeholder="enter product color" required>
-                                </div>
-                            </div>
-                            <!-- Product Color -->
-                            <!-- Product Size -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Size</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="size" name="size"
-                                           placeholder="enter product size" required>
-                                </div>
-                            </div>
-                            <!-- Product Size -->
-                            <!-- Product Status -->
+                            <!-- User Role -->
+                            <!-- User Status -->
                             <div class="form-group row">
                                 <label for="sku" class="col-sm-2 col-form-label">Status</label>
                                 <div class="col-sm-10">
                                     <select class="form-control">
-                                        <option>public</option>
-                                        <option>private</option>
-                                        <option>draft</option>
+                                        <option>active</option>
+                                        <option>verify</option>
+                                        <option>inactive</option>
                                     </select>
                                 </div>
                             </div>
-                            <!-- Product Status -->
+                            <!-- User Status -->
+                            
                         </div>
 
                     </form>

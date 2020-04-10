@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Manage Product</h1>
+                        <h1 class="m-0 text-dark">Manage Role</h1>
                       
                     </div><!-- /.col -->
                     <div class="col-sm-6">
@@ -52,10 +52,10 @@
                     <tr>
                       <th>#</th>
                       <th>Avatar</th>
-                      <th>Product Name</th>
-                      <th>Price</th>
-                      <th>Number</th>
-                      <th>Status</th>
+                      <th>Username</th>
+                      <th>Email</th>
+                      <th>Role</th>
+                      
                       
                     </tr>
                   </thead>
@@ -63,10 +63,10 @@
                     <tr>
                       <td>1</td>
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:gray;"></i></td>
-                      <td>Jacket</td>
-                      <td>4.000.000</td>
-                      <td>40</td>
-                      <td>active</td>
+                      <td>Minh Hằng</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>admin</td>
+                      
                       
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
@@ -75,10 +75,9 @@
                     <tr>
                       <td>2</td>
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Hoodie</td>
-                      <td>2.000.000</td>
-                      <td>20</td>
-                      <td>active</td>
+                      <td>Minh Hằng1</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>user</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
@@ -86,10 +85,9 @@
                     <tr>
                       <td>3</td>
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Sweater</td>
-                      <td>2.000.000</td>
-                      <td>20</td>
-                      <td>active</td>
+                      <td>Minh Hằng2</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>user</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
@@ -97,10 +95,9 @@
                     <tr>
                       <td>4</td>
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Dress</td>
-                      <td>2.500.000</td>
-                      <td>25</td>
-                      <td>active</td>
+                      <td>Minh Hằng3</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>user</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
@@ -108,10 +105,9 @@
                     <tr>
                       <td>5</td>
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
-                      <td>Short Skirt</td>
-                      <td>1.500.000</td>
-                      <td>15</td>
-                      <td>active</td>
+                      <td>Minh Hằng4</td>
+                      <td>minh.hang.301198@gmail.com</td>
+                      <td>user</td>
                       <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
