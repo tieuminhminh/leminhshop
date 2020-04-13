@@ -6,10 +6,10 @@ class Test
 
     public function testFrontend()
     {
-        require_once "view/shop/product/viewAllProduct.php";
+        require_once "view/shop/aboutUs/aboutUs.php";
     }
     public function testBackend()
     {
-        require_once "view/admin/product/view.php";
+        require_once "view/admin/product/create.php";
     }
 }

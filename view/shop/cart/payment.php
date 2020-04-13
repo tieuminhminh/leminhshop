@@ -1,4 +1,4 @@
-<?php include('view/shop/layout/header.php'); ?>
+      <?php include('view/shop/layout/header.php') ?>
 
     <!-- MAIN-MENU-AREA END -->
     <!-- MAIN-CONTENT-SECTION START -->
@@ -9,36 +9,33 @@
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
               <a href="view/shop/layout/main.php">HOMe</a>
-              <span><i class="fa fa-caret-right "></i></span>
-              <span>Your shopping cart</span>
+              <span><i class="fa fa-caret-right"></i></span>
+              <span>Your payment method</span>
             </div>
             <!-- BSTORE-BREADCRUMB END -->
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <!-- SHOPPING-CART SUMMARY START -->
-            <h2 class="page-title">Shopping-cart summary <span class="shop-pro-item">Your shopping cart contains: 2 products</span></h2>
-            <!-- SHOPPING-CART SUMMARY END -->
+            <h2 class="page-title">Choose your payment method <span class="shop-pro-item">Your shopping cart contains: 3 products </span></h2>
           </div>  
-          
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- SHOPING-CART-MENU START -->
             <div class="shoping-cart-menu">
               <ul class="step">
-                <li class="step-current first">
-                  <span>01. Summary</span>
+                <li class="step-todo first step-done">
+                  <span><a href="cart.html">01. Summary</a></span>
                 </li>
-                <li class="step-todo second">
-                  <span>02. Sign in</span>
+                <li class="step-todo second step-done">
+                  <span><a href="checkout-signin.html">02. Sign in</a></span>
                 </li>
-                <li class="step-todo third">
-                  <span>03. Address</span>
+                <li class="step-todo third step-done">
+                  <span><a href="checkout-address.html">03. Address</a></span>
                 </li>
-                <li class="step-todo four">
-                  <span>04. Shipping</span>
+                <li class="step-todo four step-done">
+                  <span><a href="checkout-shipping.html">04. Shipping</a></span>
                 </li>
-                <li class="step-todo last" id="step_end">
+                <li class="step-current last" id="step_end">
                   <span>05. Payment</span>
                 </li>
               </ul>                 
@@ -53,41 +50,37 @@
                   <tr>
                     <th class="cart-product">Product</th>
                     <th class="cart-description">Description</th>
-                    <th class="cart-avail text-center">Availability</th>
+                    <th class="cart-availability text-center">Availability</th>
                     <th class="cart-unit text-right">Unit price</th>
                     <th class="cart_quantity text-center">Qty</th>
-                    <th class="cart-delete">&nbsp;</th>
                     <th class="cart-total text-right">Total</th>
                   </tr>
                 </thead>
                 <!-- TABLE HEADER END -->
                 <!-- TABLE BODY START -->
-                <tbody> 
+                <tbody>
                   <!-- SINGLE CART_ITEM START -->
                   <tr>
                     <td class="cart-product">
-                      <a href="#"><img alt="Blouse" src="view/shop/lib/img/product/cart-image1.jpg"></a>
+                      <a href="#">
+                        <img alt="Faded" src="view/shop/lib/img/product/cart-image3.jpg">
+                      </a>
                     </td>
                     <td class="cart-description">
                       <p class="product-name"><a href="#">Faded Short Sleeves T-shirt</a></p>
                       <small>SKU : demo_1</small>
                       <small><a href="#">Size : S, Color : Orange</a></small>
                     </td>
-                    <td class="cart-avail"><span class="label label-success">In stock</span></td>
+                    <td class="cart-avail">
+                      <span class="label label-success">In stock</span>
+                    </td>
                     <td class="cart-unit">
                       <ul class="price text-right">
                         <li class="price">$16.51</li>
                       </ul>
                     </td>
                     <td class="cart_quantity text-center">
-                      <div class="cart-plus-minus-button">
-                        <input class="cart-plus-minus" type="text" name="qtybutton" value="0">
-                      </div>
-                    </td>
-                    <td class="cart-delete text-center">
-                      <span>
-                        <a href="#" class="cart_quantity_delete" title="Delete"><i class="fa fa-trash-o"></i></a>
-                      </span>
+                      <span>1</span>
                     </td>
                     <td class="cart-total">
                       <span class="price">$16.51</span>
@@ -97,28 +90,27 @@
                   <!-- SINGLE CART_ITEM START -->
                   <tr>
                     <td class="cart-product">
-                      <a href="#"><img alt="Blouse" src="view/shop/lib/img/product/cart-image2.jpg"></a>
+                      <a href="#">
+                        <img alt="Blouse" src="view/shop/lib/img/product/cart-image2.jpg">
+                      </a>
                     </td>
                     <td class="cart-description">
-                      <p class="product-name"><a href="#">Blouse</a></p>
+                      <p class="product-name"><a href="#">Summer Clothing Sleeves T-shirt</a></p>
                       <small>SKU : demo_2</small>
-                      <small><a href="#">Size : S, Color : Black</a></small>
+                      <small><a href="#">Size : S, Color : Blac</a></small>
                     </td>
-                    <td class="cart-avail"><span class="label label-success">In stock</span></td>
+                    <td class="cart-avail">
+                      <span class="label label-success">In stock</span>
+                    </td>
                     <td class="cart-unit">
                       <ul class="price text-right">
-                        <li class="price special-price">$24.00</li>
-                        <li class="price-percent-reduction small">&nbsp;-3%&nbsp;</li>
+                        <li class="price special-price">$22.95</li>
+                        <li class="price-percent-reduction">&nbsp;-15%&nbsp;</li>
                         <li class="old-price">$27.00</li>
                       </ul>
                     </td>
                     <td class="cart_quantity text-center">
-                      <div class="cart-plus-minus-button">
-                        <input class="cart-plus-minus" type="text" name="qtybutton" value="0">
-                      </div>
-                    </td>
-                    <td class="cart-delete text-center">
-                      <a href="#" class="cart_quantity_delete" title="Delete"><i class="fa fa-trash-o"></i></a>
+                      <span>1</span>
                     </td>
                     <td class="cart-total">
                       <span class="price">$22.95</span>
@@ -128,122 +120,107 @@
                   <!-- SINGLE CART_ITEM START -->
                   <tr>
                     <td class="cart-product">
-                      <a href="#"><img alt="Blouse" src="view/shop/lib/img/product/cart-image3.jpg"></a>
+                      <a href="#">
+                        <img alt="Faded" src="view/shop/lib/img/product/cart-image1.jpg">
+                      </a>
                     </td>
                     <td class="cart-description">
-                      <p class="product-name"><a href="#">Printed Summer Dress</a></p>
-                      <small>SKU : demo_5</small>
-                      <small><a href="#">Size : M, Color : Blue</a></small>
+                      <p class="product-name"><a href="#">Casual Printed Dress</a></p>
+                      <small>SKU : demo_3</small>
+                      <small><a href="#">Size : L, Color : Green</a></small>
                     </td>
-                    <td class="cart-avail"><span class="label label-success">In stock</span></td>
+                    <td class="cart-avail">
+                      <span class="label label-success">In stock</span>
+                    </td>
                     <td class="cart-unit">
                       <ul class="price text-right">
-                        <li class="price special-price">$30.45</li>
-                        <li class="price-percent-reduction small">&nbsp;-7.05%&nbsp;</li>
-                        <li class="old-price">$37.50</li>
+                        <li class="price special-price">$23.40</li>
+                        <li class="price-percent-reduction">&nbsp;-10%&nbsp;</li>
+                        <li class="old-price">$26.00</li>
                       </ul>
                     </td>
                     <td class="cart_quantity text-center">
-                      <div class="cart-plus-minus-button">
-                        <input class="cart-plus-minus" type="text" name="qtybutton" value="0">
-                      </div>
-                    </td>
-                    <td class="cart-delete text-center">
-                      <a href="#" class="cart_quantity_delete" title="Delete"><i class="fa fa-trash-o"></i></a>
+                      <span>1</span>
                     </td>
                     <td class="cart-total">
-                      <span class="price">$30.45</span>
+                      <span class="price">$23.40</span>
                     </td>
                   </tr>
                   <!-- SINGLE CART_ITEM END -->
                 </tbody>
                 <!-- TABLE BODY END -->
                 <!-- TABLE FOOTER START -->
-                <tfoot>                   
-                  <tr class="cart-total-price">
-                    <td class="cart_voucher" colspan="3" rowspan="4"></td>
-                    <td class="text-right" colspan="3">Total products (tax excl.)</td>
-                    <td id="total_product" class="price" colspan="1">$76.46</td>
+                <tfoot>
+                  <tr>
+                    <td class="text-right" colspan="4">Total products</td>
+                    <td class="price" colspan="2">$62.86</td>
                   </tr>
                   <tr>
-                    <td class="text-right" colspan="3">Total shipping</td>
-                    <td id="total_shipping" class="price" colspan="1">$5.00</td>
+                    <td class="text-right" colspan="4">Total gift wrapping cost:</td>
+                    <td class="price" colspan="2">$0.00</td>
                   </tr>
                   <tr>
-                    <td class="text-right" colspan="3">Total vouchers (tax excl.)</td>
-                    <td class="price" colspan="1">$0.00</td>
+                    <td class="text-right" colspan="4">Total shipping</td>
+                    <td class="price" colspan="2">$2.00</td>
                   </tr>
                   <tr>
-                    <td class="total-price-container text-right" colspan="3">
+                    <td class="text-right" colspan="4">Total vouchers</td>
+                    <td class="price" colspan="2">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td class="total-price-container text-right" colspan="4">
                       <span>Total</span>
                     </td>
-                    <td id="total-price-container" class="price" colspan="1">
-                      <span id="total-price">$76.46</span>
+                    <td id="total-price-container" class="price" colspan="2">
+                      <span id="total-price">$64.86</span>
                     </td>
                   </tr>
-                </tfoot>    
-                <!-- TABLE FOOTER END -->                 
+                </tfoot>
+                <!-- TABLE FOOTER END -->               
               </table>
               <!-- TABLE END -->
             </div>
             <!-- CART TABLE_BLOCK END -->
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="first_item primari-box mycartaddress-info">
-              <!-- SINGLE ADDRESS START -->
-              <ul class="address">
-                <li>
-                  <h3 class="page-subheading box-subheading">
-                    Delivery address (BootExperts Office)
-                  </h3>
-                </li>
-                <li><span class="address_name">BootExperts</span></li>
-                <li><span class="address_company">Web development Company</span></li>
-                <li><span class="address_address1">Bonossri</span></li>
-                <li><span class="address_address2">D-Block</span></li>
-                <li><span class="">Rampura</span></li>
-                <li><span class="">Dhaka</span></li>
-                <li><span class="address_phone">+880 1735161598</span></li>
-                <li><span class="address_phone_mobile">+880 1975161598</span></li>
-              </ul> 
-              <!-- SINGLE ADDRESS END -->
-            </div>            
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="second_item primari-box mycartaddress-info">
-              <!-- SINGLE ADDRESS START -->
-              <ul class="address">
-                <li>
-                  <h3 class="page-subheading box-subheading">
-                    Invoice address (BootExperts Home)
-                  </h3>
-                </li>
-                <li><span class="address_name">BootExperts</span></li>
-                <li><span class="address_company">Web development Company</span></li>
-                <li><span class="address_address1">Dhaka</span></li>
-                <li><span class="address_address2">Bonossri</span></li>
-                <li><span class="">Dhaka-1205</span></li>
-                <li><span class="">Rampura</span></li>
-                <li><span class="address_phone">+880 1735161598</span></li>
-                <li><span class="address_phone_mobile">+880 1975161598</span></li>
-              </ul> 
-              <!-- SINGLE ADDRESS END -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <!-- FOUR-PAYMENT-METHOD START -->
+            <div class="four-payment-method">
+              <!-- SINGLE-PAYMENT-METHOD START -->
+              <div class="single-payment-method payment-method-one">
+                <a href="#">Pay by bank wire<span> (order processing will be longer)</span><i class="fa fa-chevron-right"></i></a>
+              </div>
+              <!-- SINGLE-PAYMENT-METHOD END -->
+              <!-- SINGLE-PAYMENT-METHOD START -->
+              <div class="single-payment-method payment-method-two">
+                <a href="#">Pay by check<span> (order processing will be longer)</span><i class="fa fa-chevron-right"></i></a>
+              </div>
+              <!-- SINGLE-PAYMENT-METHOD END -->
+              <!-- SINGLE-PAYMENT-METHOD START -->              
+              <div class="single-payment-method payment-method-three">
+                <a href="#">Pay by paypal<span> (order processing will be longer)</span><i class="fa fa-chevron-right"></i></a>
+              </div>
+              <!-- SINGLE-PAYMENT-METHOD END -->
+              <!-- SINGLE-PAYMENT-METHOD START -->              
+              <div class="single-payment-method payment-method-four">
+                <a href="#">Pay by master card<span> (order processing will be longer)</span><i class="fa fa-chevron-right"></i></a>
+              </div>  
+              <!-- SINGLE-PAYMENT-METHOD END -->              
             </div>
+            <!-- FOUR-PAYMENT-METHOD END -->
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- RETURNE-CONTINUE-SHOP START -->
             <div class="returne-continue-shop">
-              <a href="view/shop/layout/main.php" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
-              <a href="view/shop/cart/checkoutSigIn.php" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
+              <a href="index.html" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
             </div>  
-            <!-- RETURNE-CONTINUE-SHOP END -->            
+            <!-- RETURNE-CONTINUE-SHOP END -->                
           </div>
         </div>
       </div>
     </section>
     <!-- MAIN-CONTENT-SECTION END -->
     <!-- BRAND-CLIENT-AREA START -->
-       <section class="brand-client-area">
+     <section class="brand-client-area">
       <div class="container">
         <div class="row">
           <!-- BRAND-CLIENT-ROW START -->
@@ -463,4 +440,4 @@
     </section>
     <!-- COMPANY-FACALITY END -->
     <!-- FOOTER-TOP-AREA START -->
-   <?php include('view/shop/layout/footer.php') ?>
+        <?php include('view/shop/layout/footer.php') ?>

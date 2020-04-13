@@ -29,7 +29,7 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form class="form-horizontal" enctype="multipart/form-data">
+                    <form class="form-horizontal" enctype="multipart/form-data" method="post" action="<?=BASE_URL?>/createProduct">
                         <div class="card-body">
                             <!-- Product Name -->
                             <div class="form-group row">
@@ -45,10 +45,10 @@
                             <div class="form-group row">
                                 <label for="color" class="col-sm-2 col-form-label">Category</label>
                                 <div class="col-sm-10">
-                                    <select multiple="" class="form-control" id="category" name="category">
+                                    <select size="2" multiple="multiple" class="form-control" id="category" name="category">
 
-                                            <option>Man</option>
-                                            <option>Woman</option>
+                                            <option value="1">Man</option>
+                                            <option value="2">Woman</option>
                                     </select>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                             <div class="form-group row">
                                 <label for="size" class="col-sm-2 col-form-label">Color</label>
                                 <div class="col-sm-10">
-                                    <select class="form-control" id="colors" name="colors" multiple>
+                                    <select class="form-control" size="3" id="colors" name="colors" multiple>
 
                                             <option value="red">Red </option>
                                             <option value="blue">Blue </option>
@@ -122,12 +122,12 @@
                             </div>
                             <!-- Product Image -->
                         </div>
-
+                        <div class="card-footer">
+                            <button class="btn btn-info" name="btnSubmit" id="btnSubmit">Submit</button>
+                            <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
+                        </div>
                     </form>
-                    <div class="card-footer">
-                        <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="submit()">Submit</button>
-                        <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
-                    </div>
+
                 </div>
             </div>
         </section>

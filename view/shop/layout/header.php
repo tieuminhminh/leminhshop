@@ -134,11 +134,11 @@
                 <div class="header-right-menu">
                     <nav>
                         <ul class="list-inline">
-                            <li><a href="checkout.html">Check Out</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                            <li><a href="my-account.html">My Account</a></li>
-                            <li><a href="cart.html">My Cart</a></li>
-                            <li><a href="registration.html">Sign in</a></li>
+                            <li><a href="view/shop/cart/payment.php">Check Out</a></li>
+                            <li><a href="view/shop/wishlist/wishlist.php">Wishlist</a></li>
+                            <li><a href="view/shop/account/myAccount.php">My Account</a></li>
+                            <li><a href="view/shop/cart/viewCart.php">My Cart</a></li>
+                            <li><a href="view/shop/account/login.php">Sign in</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -220,7 +220,7 @@
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pull-right shopingcartarea">
                 <div class="shopping-cart-out pull-right">
                     <div class="shopping-cart">
-                        <a class="shop-link" href="cart.html" title="View my shopping cart">
+                        <a class="shop-link" href="view/shop/cart/viewCart.php" title="View my shopping cart">
                             <i class="fa fa-shopping-cart cart-icon"></i>
                             <b>My Cart</b>
                             <span class="ajax-cart-quantity">2</span>
@@ -259,7 +259,7 @@
                                 </div>
                             </div>
                             <div class="shipping-checkout-btn">
-                                <a href="checkout.html">Check out <i class="fa fa-chevron-right"></i></a>
+                                <a href="view/shop/cart/payment.php">Check out <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -271,7 +271,7 @@
                 <div class="mainmenu">
                     <nav>
                         <ul class="list-inline mega-menu">
-                            <li class="active"><a href="index.html">Home</a>
+                            <li class="active"><a href="view/shop/layout/main.php">Home</a>
                                 <!-- DROPDOWN MENU START -->
                                 <div class="home-var-menu">
                                     <ul class="home-menu">
@@ -282,7 +282,7 @@
                                 <!-- DROPDOWN MENU END -->
                             </li>
                             <li>
-                                <a href="shop-gird.html">Women</a>
+                                <a href="view/shop/category/viewAllCategory.php">Women</a>
                                 <!-- DRODOWN-MEGA-MENU START -->
                                 <div class="drodown-mega-menu">
                                     <div class="left-mega col-xs-6">
@@ -325,226 +325,16 @@
                                 </div>
                                 <!-- DRODOWN-MEGA-MENU END -->
                             </li>
-                            <li>
-                                <a href="shop-gird.html">clothing</a>
-                                <!-- DRODOWN-MEGA-MENU START -->
-                                <div class="drodown-mega-menu">
-                                    <div class="left-mega col-xs-6">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">TOPS</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">new product</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="right-mega col-xs-6">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">Prodect</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Watch</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">best sale month</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- DRODOWN-MEGA-MENU END -->
-                            </li>
-                            <li>
-                                <a href="shop-gird.html">Tops</a>
-                                <!-- DRODOWN-MEGA-MENU START -->
-                                <div class="drodown-mega-menu">
-                                    <div class="left-mega col-xs-4">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">TOPS</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="right-mega col-xs-4">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">best sale month</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="right-mega col-xs-4">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">top rate product</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="left-mega col-xs-6">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">Latest product</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="left-mega col-xs-6">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">popular product</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- DRODOWN-MEGA-MENU END -->
-                            </li>
-                            <li>
-                                <a href="shop-gird.html">T-shirts</a>
-                                <!-- DRODOWN-MEGA-MENU START -->
-                                <div class="drodown-mega-menu">
-                                    <div class="left-mega col-xs-6">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">TOPS</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">new product</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="right-mega col-xs-6">
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">Prodect</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Watch</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">best sale month</a>
-                                            <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- DRODOWN-MEGA-MENU END -->
-                            </li>
-                            <li><a href="#">Delivery</a></li>
-                            <li><a href="about-us.html">About us</a></li>
+                           
+                            <li><a href="view/shop/contactUs/contactUs.php">Contact us</a></li>
+                            <li><a href="view/shop/aboutUs/aboutUs.php">About us</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <!-- MAINMENU END -->
         </div>
-        <div class="row">
-            <!-- MOBILE MENU START -->
-            <div class="col-sm-12 mobile-menu-area">
-                <div class="mobile-menu hidden-md hidden-lg" id="mob-menu">
-                    <span class="mobile-menu-title">MENU</span>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a>
-                                <ul>
-                                    <li><a href="index.html">Home variation 1</a></li>
-                                    <li><a href="index-2.html">Home variation 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="shop-gird.html">Women</a>
-                                <ul>
-                                    <li><a href="shop-gird.html">Tops</a>
-                                        <ul>
-                                            <li><a href="shop-gird.html">T-Shirts</a></li>
-                                            <li><a href="shop-gird.html">Blouses</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-gird.html">Dresses</a>
-                                        <ul>
-                                            <li><a href="shop-gird.html">Casual Dresses</a></li>
-                                            <li><a href="shop-gird.html">Summer Dresses</a></li>
-                                            <li><a href="shop-gird.html">Evening Dresses</a></li>
-                                        </ul>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li><a href="shop-gird.html">men</a>
-                                <ul>
-                                    <li><a href="shop-gird.html">Tops</a>
-                                        <ul>
-                                            <li><a href="shop-gird.html">Sports</a></li>
-                                            <li><a href="shop-gird.html">Day</a></li>
-                                            <li><a href="shop-gird.html">Evening</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-gird.html">Blouses</a>
-                                        <ul>
-                                            <li><a href="shop-gird.html">Handbag</a></li>
-                                            <li><a href="shop-gird.html">Headphone</a></li>
-                                            <li><a href="shop-gird.html">Houseware</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-gird.html">Accessories</a>
-                                        <ul>
-                                            <li><a href="shop-gird.html">Houseware</a></li>
-                                            <li><a href="shop-gird.html">Home</a></li>
-                                            <li><a href="shop-gird.html">Health & Beauty</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="shop-gird.html">clothing</a></li>
-                            <li><a href="shop-gird.html">tops</a></li>
-                            <li><a href="shop-gird.html">T-shirts</a></li>
-                            <li><a href="#">Delivery</a></li>
-                            <li><a href="about-us.html">About us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <!-- MOBILE MENU END -->
-        </div>
+    
     </div>
 </header>
 <!-- MAIN-MENU-AREA END -->

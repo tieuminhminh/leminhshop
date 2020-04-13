@@ -1,6 +1,11 @@
 <?php
+include_once "database/Database.php";
+include_once "model/Product_Cate.php";
+include_once "model/Product.php";
 
-
+/**
+ * Class Model
+ */
 class Model
 {
 
@@ -65,4 +70,7 @@ class Model
         }
 
     }
+
+
+
 }

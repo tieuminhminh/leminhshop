@@ -4,28 +4,20 @@
 /**
  * Class Product
  */
-class Product extends Model
+class Product_Cate extends Model
 {
 
 
-    public function create($condition)
+    public function create($product_id, $category_id)
     {
 
         $database = new Database();
 
-        $name = $condition["name"];
-        $description = strip_tags($condition["description"]);
-        $prices = $condition["prices"];
-        $colors = $condition["colors"];
-        $sizes = $condition["sizes"];
-        $image = $condition["image"];
-        $data = " \"$name\",\"$description\",\"$prices\",\"$colors\",\"$sizes\",\"$image\"";
 
-        $sql = "INSERT INTO `products`(`name`, `description`, `prices`, `colors`, `sizes`, `image`) VALUES ($data)";
+        $sql = "INSERT INTO `products_cate`(`products_id`, `categories_id`) VALUES ($product_id,$category_id)";
 
-        $database->execute($sql);
+        return $database->execute($sql);
 
-        return $database->insert_id();
 
     }
 

@@ -30,6 +30,14 @@ abstract class AbstractDatabase
     }
 
     /**
+     * @return mixed
+     */
+    public function insert_id()
+    {
+        return $this->connection->getConn()->insert_id;
+    }
+
+    /**
      * @param $tableName
      * @return array|AbstractDatabase
      */
