@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 require_once "model/Model.php";
+=======
+
+>>>>>>> refs/remotes/origin/master
 
 class ProductsController
 {
@@ -9,8 +13,9 @@ class ProductsController
 
     }
 
-    public function insert()
+    public function create()
     {
+<<<<<<< HEAD
         $model = new Model();
         $products = new Product();
         $products_cate = new Product_Cate();
@@ -39,10 +44,12 @@ class ProductsController
 
         require_once "view/admin/product/create.php";
 
+=======
+>>>>>>> refs/remotes/origin/master
 
     }
 
-    public function edit()
+    public function update()
     {
 
     }

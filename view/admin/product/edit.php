@@ -25,17 +25,12 @@
             <div class="container-fluid">
                 <div class="card card-secondary">
                     <div class="card-header">
-                        <h3 class="card-title">Create Product</h3>
+                        <h3 class="card-title">Update Product</h3>
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-<<<<<<< HEAD
-                    <form class="form-horizontal" enctype="multipart/form-data" method="post" action="<?=BASE_URL?>/createProduct">
-                        <div class="card-body">
-=======
                     <form class="form-horizontal" enctype="multipart/form-data">
                         <div class="card-body" style="color:gray;">
->>>>>>> refs/remotes/origin/master
                             <!-- Product Name -->
                             <div class="form-group row">
                                 <label for="sku" class="col-sm-2 col-form-label">Name</label>
@@ -49,13 +44,6 @@
                             <div class="form-group row">
                                 <label for="price" class="col-sm-2 col-form-label">Price</label>
                                 <div class="col-sm-10">
-<<<<<<< HEAD
-                                    <select size="2" multiple="multiple" class="form-control" id="category" name="category">
-
-                                            <option value="1">Man</option>
-                                            <option value="2">Woman</option>
-                                    </select>
-=======
                                     <input type="number" class="form-control" id="price" name="price"
                                            placeholder="enter product price" required>
                                 </div>
@@ -79,7 +67,6 @@
 
                                     </div>
                                     
->>>>>>> refs/remotes/origin/master
                                 </div>
                             </div>
                             <!-- Product Image -->
@@ -98,29 +85,18 @@
                             <!-- Product Category -->
                             <!-- Product Description -->
                             <div class="form-group row">
-                            <label for="sku" class="col-sm-2 col-form-label">Description</label>
-                                <div class="col-sm-10">
-                                <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
-                            </div>
-                            </div>
+                        <label for="sku" class="col-sm-2 col-form-label">Description</label>
+                        <div class="col-sm-10">
+                        <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
+                      </div>
+                      </div>
                             <!-- Product Description -->
                             <!-- Product Color -->
                             <div class="form-group row">
                                 <label for="sku" class="col-sm-2 col-form-label">Color</label>
                                 <div class="col-sm-10">
-<<<<<<< HEAD
-                                    <select class="form-control" size="3" id="colors" name="colors" multiple>
-
-                                            <option value="red">Red </option>
-                                            <option value="blue">Blue </option>
-                                            <option value="black">Black</option>
-                                            <option value="white">White</option>
-                                            <option value="green">Green</option>
-                                    </select>
-=======
                                     <input type="text" class="form-control" id="color" name="color"
                                            placeholder="enter product color" required>
->>>>>>> refs/remotes/origin/master
                                 </div>
                             </div>
                             <!-- Product Color -->
@@ -146,19 +122,12 @@
                             </div>
                             <!-- Product Status -->
                         </div>
-                        <div class="card-footer">
-                            <button class="btn btn-info" name="btnSubmit" id="btnSubmit">Submit</button>
-                            <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
-                        </div>
-                    </form>
-<<<<<<< HEAD
 
-=======
+                    </form>
                     <div class="card-footer">
-                        <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="submit()">Create</button>
+                        <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="submit()">Update</button>
                         <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
                     </div>
->>>>>>> refs/remotes/origin/master
                 </div>
             </div>
         </section>

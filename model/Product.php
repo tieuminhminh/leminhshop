@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
 
 
 /**
@@ -7,6 +11,7 @@
 class Product extends Model
 {
 
+<<<<<<< HEAD
 
     public function create($condition)
     {
@@ -26,8 +31,14 @@ class Product extends Model
         $database->execute($sql);
 
         return $database->insert_id();
+=======
+    public function __construct()
+    {
+>>>>>>> refs/remotes/origin/master
 
     }
+
+
 
 
 }
