@@ -128,44 +128,6 @@
     </section>
 
     </div>
-    <script>
-        function submit() {
-            let data = new FormData();
-            data.append("name",$('#name').val());
-            data.append("price",$('#price').val());
-            data.append("image",$('#image').prop('files')[0]);
-            data.append("category",$('#category').val());
-            data.append("color",$('#color').val());
-            data.append("size",$('#size').val());
 
-            $.ajax({
-                url: "<?=BASE_URL?>/createProduct",
-                type: "POST",
-                enctype: 'multipart/form-data',
-                processData: false,  // Important!
-                contentType: false,
-                cache: false,
-                data: data,
-                success: function(result) {
-
-                    if(result != null && result != ''){
-                        try {
-                            $('#error').text(JSON.parse(result));
-
-                            return;
-                        } catch (e) {
-                            $('#btnSubmit').delay(100).fadeOut('slow');
-                             $('#btnSubmit').delay(1000).fadeIn('slow');
-
-                            $('#name').val('');
-                            $('#price').val('');
-                        }
-                    }
-
-                }
-            });
-        }
-
-    </script>
 
 <?php require_once 'view/admin/layout/footer.php' ?>

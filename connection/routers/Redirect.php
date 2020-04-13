@@ -21,15 +21,15 @@ function redirect($Request = null, $Route = [])
     $path = parse_url($Request)['path'];
 
     if (!isset($Route[$path]) || empty($Route[$path])) {
-        echo "REQUEST ERROR!";
-        return;
+        header('HTTP/1.0 404 Not Found');
+        exit;
     }
 
     $list_check_obj = explode("/", $Route[$path]);
     if (CreateObject($list_check_obj))
-        return;
+        exit;
 
-    echo "ROUTER ERROR!";
+    header('HTTP/1.0 404 Not Found');
 
 }
 
@@ -58,7 +58,8 @@ function CreateObject($list_str)
             if (method_exists($object, $list_str[$i])) {
                 $object->{$list_str[$i]}();
             } else {
-                echo "function " . $list_str[$i] . " doesn't exist";
+                header('HTTP/1.0 404 Not Found');
+                exit;
             }
         }
     } else {
@@ -66,7 +67,8 @@ function CreateObject($list_str)
             if (function_exists($list_str[$i])) {
                 $list_str[$i]();
             } else {
-                echo "function " . $list_str[$i] . " doesn't exist";
+                header('HTTP/1.0 404 Not Found');
+                exit;
             }
         }
     }

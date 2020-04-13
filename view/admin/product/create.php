@@ -29,38 +29,89 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-<<<<<<< HEAD
-                    <form class="form-horizontal" enctype="multipart/form-data" method="post" action="<?=BASE_URL?>/createProduct">
-                        <div class="card-body">
-=======
                     <form class="form-horizontal" enctype="multipart/form-data">
                         <div class="card-body" style="color:gray;">
->>>>>>> refs/remotes/origin/master
+
                             <!-- Product Name -->
                             <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Name</label>
+                                <label for="name" class="col-sm-2 col-form-label">Name</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="enter product name"
                                            required>
                                 </div>
                             </div>
                             <!-- Product Name -->
+                            <!-- Product Category -->
+                            <div class="form-group row">
+                                <label for="sku" class="col-sm-2 col-form-label">Category</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" id="category" name="category">
+                                        <option value="1">Man</option>
+                                        <option value="2">Woman</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Product Category -->
                             <!-- Product Price -->
                             <div class="form-group row">
                                 <label for="price" class="col-sm-2 col-form-label">Price</label>
                                 <div class="col-sm-10">
-<<<<<<< HEAD
-                                    <select size="2" multiple="multiple" class="form-control" id="category" name="category">
-
-                                            <option value="1">Man</option>
-                                            <option value="2">Woman</option>
-                                    </select>
-=======
                                     <input type="number" class="form-control" id="price" name="price"
                                            placeholder="enter product price" required>
                                 </div>
                             </div>
                             <!-- Product Price -->
+
+                            <!-- Product Description -->
+                            <div class="form-group row">
+                            <label for="sku" class="col-sm-2 col-form-label">Description</label>
+                                <div class="col-sm-10">
+                                <textarea class="form-control" rows="10" placeholder="Enter ..." id="description" name="description"></textarea>
+                            </div>
+                            </div>
+                            <!-- Product Description -->
+                            <!-- Product Color -->
+                            <div class="form-group row">
+                                <label for="sku" class="col-sm-2 col-form-label">Color</label>
+                                <div class="col-sm-10">
+
+                                    <select class="form-control" size="3" id="colors" name="colors" multiple>
+
+                                            <option value="red">Red </option>
+                                            <option value="blue">Blue </option>
+                                            <option value="black">Black</option>
+                                            <option value="white">White</option>
+                                            <option value="green">Green</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Product Color -->
+                            <!-- Product Size -->
+                            <div class="form-group row">
+                                <label for="sku" class="col-sm-2 col-form-label">Size</label>
+                                <div class="col-sm-10">
+
+                                    <select class="form-control" size="3" id="size" name="size" multiple>
+
+                                        <option value="red">X </option>
+                                        <option value="blue">M</option>
+                                        <option value="black">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Product Size -->
+                            <!-- Product Status -->
+                            <div class="form-group row">
+                                <label for="sku" class="col-sm-2 col-form-label">Status</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" id="status" name="status">
+                                        <option>public</option>
+                                        <option>private</option>
+                                        <option>draft</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Product Status -->
                             <!-- Product Image -->
                             <div class="form-group row">
                                 <label for="image" class="col-sm-2 col-form-label">Image</label>
@@ -78,94 +129,24 @@
                                         </div>
 
                                     </div>
-                                    
->>>>>>> refs/remotes/origin/master
+
                                 </div>
                             </div>
                             <!-- Product Image -->
-                            <!-- Product Category -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Category</label>
-                                <div class="col-sm-10">
-                                    <select class="form-control">
-                                        <option>Category1</option>
-                                        <option>Category2</option>
-                                        <option>Category3</option>
-                                        <option>Category4</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- Product Category -->
-                            <!-- Product Description -->
-                            <div class="form-group row">
-                            <label for="sku" class="col-sm-2 col-form-label">Description</label>
-                                <div class="col-sm-10">
-                                <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
-                            </div>
-                            </div>
-                            <!-- Product Description -->
-                            <!-- Product Color -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Color</label>
-                                <div class="col-sm-10">
-<<<<<<< HEAD
-                                    <select class="form-control" size="3" id="colors" name="colors" multiple>
 
-                                            <option value="red">Red </option>
-                                            <option value="blue">Blue </option>
-                                            <option value="black">Black</option>
-                                            <option value="white">White</option>
-                                            <option value="green">Green</option>
-                                    </select>
-=======
-                                    <input type="text" class="form-control" id="color" name="color"
-                                           placeholder="enter product color" required>
->>>>>>> refs/remotes/origin/master
-                                </div>
-                            </div>
-                            <!-- Product Color -->
-                            <!-- Product Size -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Size</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="size" name="size"
-                                           placeholder="enter product size" required>
-                                </div>
-                            </div>
-                            <!-- Product Size -->
-                            <!-- Product Status -->
-                            <div class="form-group row">
-                                <label for="sku" class="col-sm-2 col-form-label">Status</label>
-                                <div class="col-sm-10">
-                                    <select class="form-control">
-                                        <option>public</option>
-                                        <option>private</option>
-                                        <option>draft</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- Product Status -->
                         </div>
                         <div class="card-footer">
-                            <button class="btn btn-info" name="btnSubmit" id="btnSubmit">Submit</button>
+                            <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="createProduct()">Create</button>
                             <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
                         </div>
                     </form>
-<<<<<<< HEAD
-
-=======
-                    <div class="card-footer">
-                        <button class="btn btn-info" name="btnSubmit" id="btnSubmit" onclick="submit()">Create</button>
-                        <button type="submit" href="#" class="btn btn-default float-right">Cancel</button>
-                    </div>
->>>>>>> refs/remotes/origin/master
                 </div>
             </div>
         </section>
         <!-- /.content -->
     </div>
     <script>
-        function submit() {
+        function createProduct() {
             let data = new FormData();
             data.append("name",$('#name').val());
             data.append("price",$('#price').val());

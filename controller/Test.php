@@ -10,10 +10,7 @@ class Test
     }
     public function testBackend()
     {
-<<<<<<< HEAD
-        require_once "view/admin/product/create.php";
-=======
-        require_once "view/admin/order/create.php";
->>>>>>> refs/remotes/origin/master
+
+        require_once "view/admin/product/view.php";
     }
 }
