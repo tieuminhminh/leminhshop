@@ -29,7 +29,7 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form class="form-horizontal" enctype="multipart/form-data">
+                    <form class="form-horizontal" enctype="multipart/form-data" method="post">
                         <div class="card-body" style="color:gray;">
 
                             <!-- Product Name -->
@@ -56,7 +56,7 @@
                             <div class="form-group row">
                                 <label for="price" class="col-sm-2 col-form-label">Price</label>
                                 <div class="col-sm-10">
-                                    <input type="number" class="form-control" id="price" name="price"
+                                    <input type="number" class="form-control" id="prices" name="prices"
                                            placeholder="enter product price" required>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                 <label for="sku" class="col-sm-2 col-form-label">Size</label>
                                 <div class="col-sm-10">
 
-                                    <select class="form-control" size="3" id="size" name="size" multiple>
+                                    <select class="form-control" size="3" id="sizes" name="sizes" multiple>
 
                                         <option value="red">X </option>
                                         <option value="blue">M</option>
@@ -120,7 +120,7 @@
                                         <div class="custom-file">
                                             <input type="file" class="custom-file-input" id="image" name="image"
                                                    required>
-                                            <label class="custom-file-label" for="image">Choose file</label>
+                                            <label class="custom-file-label" for="image" id="imageName">Choose file</label>
 
                                         </div>
 
@@ -145,15 +145,16 @@
         </section>
         <!-- /.content -->
     </div>
+
     <script>
         function createProduct() {
             let data = new FormData();
             data.append("name",$('#name').val());
-            data.append("price",$('#price').val());
+            data.append("prices",$('#prices').val());
             data.append("image",$('#image').prop('files')[0]);
             data.append("category",$('#category').val());
-            data.append("color",$('#color').val());
-            data.append("size",$('#size').val());
+            data.append("colors",$('#colors').val());
+            data.append("sizes",$('#sizes').val());
 
             $.ajax({
                 url: "<?=BASE_URL?>/createProduct",

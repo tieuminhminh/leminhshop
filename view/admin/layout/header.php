@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 3 | Dashboard</title>
+    <title>leminhshop | Admin Site</title>
+    <!-- Favicon
+============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="view/shop/lib/img/favicon.png">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->

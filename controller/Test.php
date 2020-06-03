@@ -11,6 +11,6 @@ class Test
     public function testBackend()
     {
 
-        require_once "view/admin/product/view.php";
+        require_once "view/admin/order/create.php";
     }
 }

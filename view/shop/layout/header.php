@@ -155,7 +155,7 @@
             <div class="col-sm-12">
                 <!-- LOGO START -->
                 <div class="logo">
-                    <a href="index.html"><img src="view/shop/lib/img/logo.png" alt="bstore logo" /></a>
+                    <a href="index.html"><img src="view/shop/lib/img/logo2.png" alt="leminhshop logo"></a>
                 </div>
                 <!-- LOGO END -->
                 <!-- HEADER-RIGHT-CALLUS START -->
