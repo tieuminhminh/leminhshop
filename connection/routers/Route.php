@@ -16,6 +16,9 @@ $Route['/createProduct'] = "controller/ProductsController/create";
 $Route['/updateProduct'] = "controller/ProductsController/update";
 //category
 
+//static page
+$Route['/contactUs'] = "controller/StaticPage/contactUs";
+$Route['/aboutUs'] = "controller/StaticPage/aboutUs";
 
 //front-end test
 $Route['/testFrontend'] = "controller/Test/testFrontend";

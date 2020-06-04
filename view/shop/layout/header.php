@@ -326,8 +326,8 @@
                                 <!-- DRODOWN-MEGA-MENU END -->
                             </li>
                            
-                            <li><a href="view/shop/contactUs/contactUs.php">Contact us</a></li>
-                            <li><a href="view/shop/aboutUs/aboutUs.php">About us</a></li>
+                            <li><a href="<?=BASE_URL?>/contactUs">Contact us</a></li>
+                            <li><a href="<?=BASE_URL?>/aboutUs">About us</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -1,4 +1,4 @@
-<?php include('view/shop/layout/header.php'); ?>
+<?php include ("view/shop/layout/header.php")?>
 
     <!-- MAIN-MENU-AREA END -->
     <!-- MAIN-CONTENT-SECTION START -->
@@ -8,7 +8,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="index.html">HOMe</a>
+              <a href="<?=BASE_URL?>">HOME</a>
               <span><i class="fa fa-caret-right "></i></span>
               <span>Contact</span>
             </div>
@@ -32,7 +32,7 @@
                         <label>Subject Heading</label>
                         <div class="con-form-select">
                           <select id="conForm" name="conform">
-                            <option value="">Customar Service</option>
+                            <option value="">Customer Service</option>
                             <option value="">Webmaster</option>
                           </select>                       
                         </div>
@@ -300,5 +300,5 @@
     </section>
     <!-- COMPANY-FACALITY END -->
     <!-- FOOTER-TOP-AREA START -->
-       <?php include('view/shop/layout/footer.php') ?>
+<?php include('view/shop/layout/footer.php') ?>
    
