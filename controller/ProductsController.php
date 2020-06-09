@@ -10,8 +10,7 @@ class ProductsController
 
     public function create()
     {
-
-
+        require_once ("view/admin/product/create.php");
 
     }
 

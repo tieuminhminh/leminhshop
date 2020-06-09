@@ -4,9 +4,9 @@
 class CategoriesController
 {
 
-    public function index()
+    public function view()
     {
-
+require_once ("view/shop/category/viewAllCategory.php");
     }
 
     public function create()

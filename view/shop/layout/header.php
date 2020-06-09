@@ -92,7 +92,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="header-left-menu">
                     <div class="welcome-info">
-                        Welcome <span>BootExperts</span>
+                        Welcome <span>User</span>
                     </div>
                     <div class="currenty-converter">
                         <form method="post" action="#" id="currency-set">
@@ -161,52 +161,9 @@
                 <!-- HEADER-RIGHT-CALLUS START -->
                 <div class="header-right-callus">
                     <h3>call us free</h3>
-                    <span>0123-456-789</span>
+                    <span>038- 764 8787</span>
                 </div>
                 <!-- HEADER-RIGHT-CALLUS END -->
-                <!-- CATEGORYS-PRODUCT-SEARCH START -->
-                <div class="categorys-product-search">
-                    <form action="#" method="get" class="search-form-cat">
-                        <div class="search-product form-group">
-                            <select name="catsearch" class="cat-search">
-                                <option value="">Categories</option>
-                                <option value="2">--Women</option>
-                                <option value="3">---T-Shirts</option>
-                                <option value="4">--Men</option>
-                                <option value="5">----Shoose</option>
-                                <option value="6">--Dress</option>
-                                <option value="7">----Tops</option>
-                                <option value="8">---Casual</option>
-                                <option value="9">--Evening</option>
-                                <option value="10">--Summer</option>
-                                <option value="11">---sports</option>
-                                <option value="12">--day</option>
-                                <option value="13">--evening</option>
-                                <option value="14">-----Blouse</option>
-                                <option value="15">--handba</option>
-                                <option value="16">--phone</option>
-                                <option value="17">-house</option>
-                                <option value="18">--Beauty</option>
-                                <option value="19">--health</option>
-                                <option value="20">---clothing</option>
-                                <option value="21">---kids</option>
-                                <option value="22">--Dresse</option>
-                                <option value="22">---Casual</option>
-                                <option value="23">--day</option>
-                                <option value="24">--evening</option>
-                                <option value="24">---Blouse</option>
-                                <option value="25">-handb</option>
-                                <option value="66">--phone</option>
-                                <option value="27">---house</option>
-                            </select>
-                            <input type="text" class="form-control search-form" name="s" placeholder="Enter your search key ... " />
-                            <button class="search-button" value="Search" name="s" type="submit">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <!-- CATEGORYS-PRODUCT-SEARCH END -->
             </div>
         </div>
     </div>
@@ -271,38 +228,30 @@
                 <div class="mainmenu">
                     <nav>
                         <ul class="list-inline mega-menu">
-                            <li class="active"><a href="view/shop/layout/main.php">Home</a>
-                                <!-- DROPDOWN MENU START -->
-                                <div class="home-var-menu">
-                                    <ul class="home-menu">
-                                        <li><a href="index.html">Home variation 1</a></li>
-                                        <li><a href="index-2.html">Home variation 2</a></li>
-                                    </ul>
-                                </div>
-                                <!-- DROPDOWN MENU END -->
+                            <li class="active"><a href="<?=BASE_URL?>">Home</a>
                             </li>
                             <li>
-                                <a href="view/shop/category/viewAllCategory.php">Women</a>
+                                <a href="<?=BASE_URL?>/viewCategory">Women</a>
                                 <!-- DRODOWN-MEGA-MENU START -->
                                 <div class="drodown-mega-menu">
                                     <div class="left-mega col-xs-6">
                                         <div class="mega-menu-list">
                                             <a class="mega-menu-title" href="shop-gird.html">TOPS</a>
                                             <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">T-shirts</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">clothing</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">Delivery</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="right-mega col-xs-6">
                                         <div class="mega-menu-list">
-                                            <a class="mega-menu-title" href="shop-gird.html">Prodect</a>
+                                            <a class="mega-menu-title" href="shop-gird.html">Product</a>
                                             <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Watch</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">T-shirts</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">clothing</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">Watch</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">Delivery</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -310,15 +259,15 @@
                                 <!-- DRODOWN-MEGA-MENU END -->
                             </li>
                             <li>
-                                <a href="shop-gird.html">Men</a>
+                                <a href="<?=BASE_URL?>/viewCategory">Men</a>
                                 <!-- DRODOWN-MEGA-MENU START -->
                                 <div class="drodown-mega-menu">
                                     <div class="left-mega col-xs-6">
                                         <div class="mega-menu-list">
                                             <ul>
-                                                <li><a href="shop-gird.html">T-shirts</a></li>
-                                                <li><a href="shop-gird.html">clothing</a></li>
-                                                <li><a href="shop-gird.html">Delivery</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">T-shirts</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">clothing</a></li>
+                                                <li><a href="<?=BASE_URL?>/viewCategory">Delivery</a></li>
                                             </ul>
                                         </div>
                                     </div>
