@@ -9,7 +9,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="view/shop/layout/main.php">HOMe</a>
+              <a href="<?=BASE_URL?>">HOMe</a>
               <span><i class="fa fa-caret-right "></i></span>
               <span>My account</span>
             </div>
@@ -48,7 +48,7 @@
             <!-- BACK TO HOME START -->
             <div class="home-link-menu">
               <ul>
-                <li><a href="iview/shop/layout/main.php"><i class="fa fa-chevron-left"></i> Home</a></li>
+                <li><a href="i<?=BASE_URL?>"><i class="fa fa-chevron-left"></i> Home</a></li>
               </ul>
             </div>
             <!-- BACK TO HOME END -->

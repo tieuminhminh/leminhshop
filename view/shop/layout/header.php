@@ -177,7 +177,7 @@
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pull-right shopingcartarea">
                 <div class="shopping-cart-out pull-right">
                     <div class="shopping-cart">
-                        <a class="shop-link" href="view/shop/cart/viewCart.php" title="View my shopping cart">
+                        <a class="shop-link" href="<?=BASE_URL?>/viewCart" title="View my shopping cart">
                             <i class="fa fa-shopping-cart cart-icon"></i>
                             <b>My Cart</b>
                             <span class="ajax-cart-quantity">2</span>
@@ -216,7 +216,7 @@
                                 </div>
                             </div>
                             <div class="shipping-checkout-btn">
-                                <a href="view/shop/cart/payment.php">Check out <i class="fa fa-chevron-right"></i></a>
+                                <a href="<?=BASE_URL?>/checkoutSignIn">Check out <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>

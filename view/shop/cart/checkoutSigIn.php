@@ -8,7 +8,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="view/shop/layout/main.php">HOMe</a>
+              <a href="<?=BASE_URL?>">HOMe</a>
               <span><i class="fa fa-caret-right "></i></span>
               <span>Sign in / Register</span>
             </div>
@@ -24,7 +24,7 @@
             <div class="shoping-cart-menu">
               <ul class="step">
                 <li class="step-todo first step-done">
-                  <span><a href="view/shop/cart/viewCart.php">01. Summary</a></span>
+                  <span><a href="<?=BASE_URL?>/viewCart">01. Summary</a></span>
                 </li>
                 <li class="step-current second">
                   <span>02. Sign in</span>
@@ -54,7 +54,7 @@
                     <input type="text" value="" name="email" id="email" class="form-control input-feild" required>
                   </div>
                   <div class="submit-button">
-                    <a href="view/shop/account/registration.php" id="SubmitCreate" class="btn main-btn">
+                    <a href="<?=BASE_URL?>/registration" id="SubmitCreate" class="btn main-btn">
                       <span>
                         <i class="fa fa-user submit-icon"></i>
                         Create an account
@@ -82,10 +82,10 @@
    
                   </div>
                   <div class="forget-password">
-                    <p><a href="#">Forgot your password?</a></p>
+                    <p><a href="<?=BASE_URL?>/login">Forgot your password?</a></p>
                   </div>
                   <div class="submit-button">
-                    <a href="view/shop/account/myAccount.php" id="signinCreate" class="btn main-btn">
+                    <a href="<?=BASE_URL?>/checkoutAddress" id="signinCreate" class="btn main-btn">
                     <span>
                       <i class="fa fa-lock submit-icon"></i>
                        Sign in

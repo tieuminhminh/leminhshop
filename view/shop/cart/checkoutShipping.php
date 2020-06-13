@@ -67,7 +67,7 @@
                           <img src="view/shop/lib/img/bank.png" alt="" />
                         </td>
                         <td class="carrey-info">
-                          <strong>BootExperts</strong><br>
+                          <strong>Giao Hang Tiet Kiem</strong><br>
                           Delivery time: Pick up in-store <br />
                           The best price and speed
                         </td>
@@ -120,8 +120,8 @@
             <!-- PRODUCT-DELIVERY-OPTION END -->
             <!-- RETURNE-CONTINUE-SHOP START -->
             <div class="returne-continue-shop">
-              <a href="view/shop/layout/main.php" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
-              <a href="view/shop/cart/payment.php" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
+              <a href="<?=BASE_URL?>" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
+              <a href="<?=BASE_URL?>/checkoutPayment" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
             </div>  
             <!-- RETURNE-CONTINUE-SHOP END -->  
           </div>          
