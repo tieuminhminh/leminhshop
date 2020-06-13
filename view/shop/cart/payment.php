@@ -212,6 +212,7 @@
             <!-- RETURNE-CONTINUE-SHOP START -->
             <div class="returne-continue-shop">
               <a href="index.html" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
+                <a href="<?=BASE_URL?>" class="procedtocheckout">Complete with COD<i class="fa fa-chevron-right"></i></a>
             </div>  
             <!-- RETURNE-CONTINUE-SHOP END -->                
           </div>

@@ -8,9 +8,9 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="index.html">HOMe<span><i class="fa fa-caret-right"></i> </span> </a>
+              <a href="<?=BASE_URL?>">HOME<span><i class="fa fa-caret-right"></i> </span> </a>
               <span> <i class="fa fa-caret-right"> </i> </span>
-              <a href="shop-gird.html"> women </a>
+              <a href="<?=BASE_URL?>/viewCategory"> women </a>
               <span> Faded Short Sleeves T-shirt </span>
             </div>
             <!-- BSTORE-BREADCRUMB END -->
@@ -158,7 +158,7 @@
                     <a class="color-blue" href="#"><span></span></a>
                   </div>
                   <div class="single-product-add-cart">
-                    <a class="add-cart-text" title="Add to cart" href="#">Add to cart</a>
+                    <a class="add-cart-text" title="Add to cart" href="<?=BASE_URL?>/viewCart">Add to cart</a>
                   </div>
                 </div>
               </div>

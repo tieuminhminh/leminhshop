@@ -3,26 +3,14 @@
 class ProductsController
 {
 
-    public function view()
+    public function all()
     {
-echo "asdf";
-    }
+   require_once ("view/shop/product/viewAllProduct.php");
+  }
 
-    public function create()
+    public function detail()
     {
-        require_once ("view/admin/product/create.php");
-
-    }
-
-    public function update()
-    {
-
-    }
-
-
-    public function delete()
-    {
-
-    }
+        require_once ("view/shop/product/viewDetailProduct.php");
+   }
 
 }

@@ -8,8 +8,8 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="index.html">HOMe <span><i class="fa fa-caret-right"></i> </span> </a>
-              <a href="my-account.html"> my account <span><i class="fa fa-caret-right"></i></span></a>
+              <a href="<?=BASE_URL?>">HOMe <span><i class="fa fa-caret-right"></i> </span> </a>
+              <a href="<?=BASE_URL?>/myAccount"> my account <span><i class="fa fa-caret-right"></i></span></a>
               <span> My wishlists</span>
             </div>
             <!-- BSTORE-BREADCRUMB END -->
@@ -213,8 +213,8 @@
                 </div>
                 <!-- WISH-LIST BACT HOME START-->
                 <div class="wish-back-link">
-                  <a  class="wish-save" href="my-account.html"><i class="fa fa-chevron-left"></i> Back to Your Account</a>
-                  <a  class="wish-save" href="index.html"><i class="fa fa-chevron-left"></i> Home</a>
+                  <a  class="wish-save" href="<?=BASE_URL?>/myAccount"><i class="fa fa-chevron-left"></i> Back to Your Account</a>
+                  <a  class="wish-save" href="<?=BASE_URL?>"><i class="fa fa-chevron-left"></i> Home</a>
                 </div>
                 <!-- WISH-LIST BACT HOME END -->
               </div>

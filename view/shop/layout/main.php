@@ -94,7 +94,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$26.00</span>
                                                     </div>
@@ -132,7 +132,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Chiffon Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$16.40</span>
                                                         <span class="old-price">$20.50</span>
@@ -171,7 +171,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                                     <div class="price-box">
                                                         <span class="price">$16.51</span>
 
@@ -210,7 +210,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Blouse</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                                     <div class="price-box">
                                                         <span class="price">$27.00</span>
                                                     </div>
@@ -248,7 +248,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$26.00</span>
                                                     </div>
@@ -286,7 +286,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$26.00</span>
                                                     </div>
@@ -324,7 +324,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                                     <div class="price-box">
                                                         <span class="price">$16.51</span>
                                                     </div>
@@ -362,7 +362,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Blouse</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                                     <div class="price-box">
                                                         <span class="price">$22.95</span>
                                                         <span class="old-price">$27.00</span>
@@ -401,7 +401,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$23.40</span>
                                                         <span class="old-price">$26.00</span>
@@ -440,7 +440,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$50.99</span>
                                                     </div>
@@ -498,7 +498,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Summer Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$28.98</span>
                                                         <span class="old-price">$30.51</span>
@@ -537,7 +537,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$23.40</span>
                                                         <span class="old-price">$26.00</span>
@@ -576,7 +576,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Blouse</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                                     <div class="price-box">
                                                         <span class="price">$22.95</span>
                                                         <span class="old-price">$27.00</span>
@@ -615,7 +615,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Chiffon Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$16.40</span>
                                                         <span class="old-price">$20.50</span>
@@ -654,7 +654,7 @@
                                                             <span>1 Review (s)</span>
                                                         </div>
                                                     </div>
-                                                    <a href="single-product.html">Printed Chiffon Dress</a>
+                                                    <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                                     <div class="price-box">
                                                         <span class="price">$16.40</span>
                                                         <span class="old-price">$20.50</span>
@@ -728,7 +728,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                         <div class="price-box">
                                             <span class="price">$16.51</span>
                                         </div>
@@ -764,7 +764,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Blouse</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                         <div class="price-box">
                                             <span class="price">$22.95</span>
                                             <span class="old-price">$27.00</span>
@@ -801,7 +801,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                         <div class="price-box">
                                             <span class="price">$23.40</span>
                                             <span class="old-price">$26.00</span>
@@ -838,7 +838,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                         <div class="price-box">
                                             <span class="price">$50.99</span>
                                         </div>
@@ -874,7 +874,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Summer Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                         <div class="price-box">
                                             <span class="price">$28.98</span>
                                             <span class="old-price">$30.51</span>
@@ -911,7 +911,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Summer Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                         <div class="price-box">
                                             <span class="price">$30.50</span>
                                         </div>
@@ -947,7 +947,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Chiffon Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                         <div class="price-box">
                                             <span class="price">$16.40</span>
                                             <span class="old-price">$20.50</span>
@@ -984,7 +984,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                         <div class="price-box">
                                             <span class="price">$26.00</span>
                                         </div>
@@ -1020,7 +1020,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                         <div class="price-box">
                                             <span class="price">$26.00</span>
                                         </div>
@@ -1056,7 +1056,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Blouse</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                         <div class="price-box">
                                             <span class="price">$27.00</span>
                                         </div>
@@ -1092,7 +1092,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                         <div class="price-box">
                                             <span class="price">$16.51</span>
                                         </div>
@@ -1128,7 +1128,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Chiffon Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                         <div class="price-box">
                                             <span class="price">$16.40</span>
                                             <span class="old-price">$20.50</span>
@@ -1165,7 +1165,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                         <div class="price-box">
                                             <span class="price">$26.00</span>
                                         </div>
@@ -1218,7 +1218,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.51</span>
                                             </div>
@@ -1254,7 +1254,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Blouse</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                             <div class="price-box">
                                                 <span class="price">$22.95</span>
                                                 <span class="old-price">$27.00</span>
@@ -1291,7 +1291,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$23.40</span>
                                                 <span class="old-price">$26.00</span>
@@ -1328,7 +1328,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$50.99</span>
                                             </div>
@@ -1364,7 +1364,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Summer Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$28.98</span>
                                                 <span class="old-price">$30.51</span>
@@ -1401,7 +1401,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Summer Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$30.50</span>
                                             </div>
@@ -1437,7 +1437,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Chiffon Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$16.40</span>
                                                 <span class="old-price">$20.50</span>
@@ -1474,7 +1474,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -1510,7 +1510,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -1546,7 +1546,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Blouse</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                             <div class="price-box">
                                                 <span class="price">$27.00</span>
                                             </div>
@@ -1582,7 +1582,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.51</span>
                                             </div>
@@ -1618,7 +1618,7 @@
                                                     <span>4 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.40</span>
                                                 <span class="old-price">$20.50</span>
@@ -1655,7 +1655,7 @@
                                                     <span>3 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -1697,7 +1697,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$23.40</span>
                                                 <span class="old-price">$26.00</span>
@@ -1734,7 +1734,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$50.99</span>
                                             </div>
@@ -1770,7 +1770,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Blouse</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                             <div class="price-box">
                                                 <span class="price">$22.95</span>
                                                 <span class="old-price">$27.00</span>
@@ -1807,7 +1807,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Blouse</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                             <div class="price-box">
                                                 <span class="price">$27.00</span>
                                             </div>
@@ -1843,7 +1843,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.51</span>
                                             </div>
@@ -1879,7 +1879,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Summer Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$28.98</span>
                                                 <span class="old-price">$30.51</span>
@@ -1916,7 +1916,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.51</span>
                                             </div>
@@ -1952,7 +1952,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Summer Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$30.50</span>
                                             </div>
@@ -1988,7 +1988,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Chiffon Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$16.40</span>
                                                 <span class="old-price">$20.50</span>
@@ -2025,7 +2025,7 @@
                                                     <span>4 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.40</span>
                                                 <span class="old-price">$20.50</span>
@@ -2062,7 +2062,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -2098,7 +2098,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -2134,7 +2134,7 @@
                                                     <span>3 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -2176,7 +2176,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$50.99</span>
                                             </div>
@@ -2212,7 +2212,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.51</span>
                                             </div>
@@ -2248,7 +2248,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Chiffon Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$16.40</span>
                                                 <span class="old-price">$20.50</span>
@@ -2285,7 +2285,7 @@
                                                     <span>4 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.40</span>
                                                 <span class="old-price">$20.50</span>
@@ -2322,7 +2322,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Summer Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$30.50</span>
                                             </div>
@@ -2358,7 +2358,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$23.40</span>
                                                 <span class="old-price">$26.00</span>
@@ -2395,7 +2395,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Blouse</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                             <div class="price-box">
                                                 <span class="price">$22.95</span>
                                                 <span class="old-price">$27.00</span>
@@ -2432,7 +2432,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -2468,7 +2468,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Blouse</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                             <div class="price-box">
                                                 <span class="price">$27.00</span>
                                             </div>
@@ -2504,7 +2504,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Summer Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$28.98</span>
                                                 <span class="old-price">$30.51</span>
@@ -2541,7 +2541,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                             <div class="price-box">
                                                 <span class="price">$16.51</span>
                                             </div>
@@ -2577,7 +2577,7 @@
                                                     <span>1 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -2613,7 +2613,7 @@
                                                     <span>3 Review(s)</span>
                                                 </div>
                                             </div>
-                                            <a href="single-product.html">Printed Dress</a>
+                                            <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                             <div class="price-box">
                                                 <span class="price">$26.00</span>
                                             </div>
@@ -2677,7 +2677,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Blouse</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Blouse</a>
                                         <div class="price-box">
                                             <span class="price">$22.95</span>
                                             <span class="old-price">$27.00</span>
@@ -2714,7 +2714,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                         <div class="price-box">
                                             <span class="price">$16.51</span>
                                         </div>
@@ -2750,7 +2750,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Dress</a>
                                         <div class="price-box">
                                             <span class="price">$23.40</span>
                                             <span class="old-price">$26.00</span>
@@ -2787,7 +2787,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Summer Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Summer Dress</a>
                                         <div class="price-box">
                                             <span class="price">$30.50</span>
                                         </div>
@@ -2823,7 +2823,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Faded Short Sleeves T-shirt</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Faded Short Sleeves T-shirt</a>
                                         <div class="price-box">
                                             <span class="price">$16.51</span>
                                         </div>
@@ -2859,7 +2859,7 @@
                                                 <span>1 Review (s)</span>
                                             </div>
                                         </div>
-                                        <a href="single-product.html">Printed Chiffon Dress</a>
+                                        <a href="<?=BASE_URL?>/detailProduct">Printed Chiffon Dress</a>
                                         <div class="price-box">
                                             <span class="price">$16.40</span>
                                             <span class="old-price">$20.50</span>

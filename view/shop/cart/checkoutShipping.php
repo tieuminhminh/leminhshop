@@ -64,7 +64,7 @@
                           </div>
                         </td>                     
                         <td class="delivery-method-icon">
-                          <img src="view/shop/lib/img/bank.png" alt="" />
+                          <img src="view/shop/lib/img/giaohangtietkiem.png" alt="giao hang tiet kiem" />
                         </td>
                         <td class="carrey-info">
                           <strong>Giao Hang Tiet Kiem</strong><br>
@@ -88,10 +88,10 @@
                           </div>
                         </td>                     
                         <td class="delivery-method-icon">
-                          <img src="view/shop/lib/img/delivery-method.jpg" alt="" />
+                          <img src="view/shop/lib/img/grabexpress.jpeg" alt=" grab express" />
                         </td>
                         <td class="carrey-info">
-                          <strong>BootExperts</strong><br>
+                          <strong>Grab Express</strong><br>
                           Delivery time: Pick up in-store
                         </td>
                         <td class="carrey-cost">
