@@ -14,6 +14,8 @@ $Route['/admin'] = "controller/ShopController/admin";
 
 //users
 $Route['/adminViewUser'] = "controller/admin/UserController/view";
+$Route['/adminViewUser'] = "controller/admin/UserController/create";
+$Route['/adminViewUser'] = "controller/admin/UserController/edit";
 
 //role
 $Route['/adminViewRole'] = "controller/admin/RoleController/view";
