@@ -8,7 +8,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="view/shop/layout/main.php">HOMe</a>
+              <a href="<?=BASE_URL?>">HOMe</a>
               <span><i class="fa fa-caret-right"></i></span>
               <span>Your payment method</span>
             </div>

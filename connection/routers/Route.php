@@ -39,11 +39,16 @@ $Route['/adminEditPost'] = "controller/PostController/edit";
 
 /** user sites */
 //cart
-
+$Route['/viewCart'] = "controller/CheckoutController/view";
 $Route['/checkoutAddress'] = "controller/CheckoutController/address";
 $Route['/checkoutShipping'] = "controller/CheckoutController/shipping";
 $Route['/checkoutSignin'] = "controller/CheckoutController/signIn";
 $Route['/checkoutPayment'] = "controller/CheckoutController/payment";
+
+//authentication
+$Route['/registration'] = "controller/AuthenticationController/register";
+$Route['/login'] = "controller/AuthenticationController/login";
+$Route['/myAccount'] = "controller/AuthenticationController/myAccount";
 //category
 
 $Route['/viewCategory'] = "controller/CategoriesController/view";

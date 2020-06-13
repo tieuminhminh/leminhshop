@@ -8,7 +8,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="view/shop/layout/main.php">HOME</a>
+              <a href="<?=BASE_URL?>">HOME</a>
               <span><i class="fa fa-caret-right "></i></span>
               <span>Your shopping cart</span>
             </div>
@@ -233,8 +233,8 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- RETURNE-CONTINUE-SHOP START -->
             <div class="returne-continue-shop">
-              <a href="view/shop/layout/main.php" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
-              <a href="view/shop/cart/checkoutSigIn.php" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
+              <a href="<?=BASE_URL?>" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
+              <a href="<?=BASE_URL?>/checkoutSignin" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
             </div>  
             <!-- RETURNE-CONTINUE-SHOP END -->            
           </div>

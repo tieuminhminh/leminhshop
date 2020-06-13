@@ -8,7 +8,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- BSTORE-BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-              <a href="view/shop/layout/main.php">HOMe</a>
+              <a href="<?=BASE_URL?>">HOME</a>
               <span><i class="fa fa-caret-right "></i></span>
               <span>Addresses</span>
             </div>
@@ -24,10 +24,10 @@
             <div class="shoping-cart-menu">
               <ul class="step">
                 <li class="step-todo first step-done">
-                  <span><a href="view/shop/cart/viewCart.php">01. Summary</a></span>
+                  <span><a href="<?=BASE_URL?>/viewCart">01. Summary</a></span>
                 </li>
                 <li class="step-todo second step-done">
-                  <span><a href="view/shop/cart/checkoutSigIn.php">02. Sign in</a></span>
+                  <span><a href="<?=BASE_URL?>/checkoutSignin">02. Sign in</a></span>
                 </li>
                 <li class="step-current third">
                   <span>03. Address</span>
@@ -82,7 +82,7 @@
                 <li><span class="address_phone">+880 1735161598</span></li>
                 <li><span class="address_phone_mobile">+880 1975161598</span></li>
                 <li class="update-button">
-                  <a href="my-cart-step-2-info.html">Update<i class="fa fa-chevron-right"></i></a>
+                  <a href="<?=BASE_URL?>/checkoutShipping">Update<i class="fa fa-chevron-right"></i></a>
                 </li>               
               </ul> 
               <!-- DELIVERY ADDRESS END -->
@@ -106,7 +106,7 @@
                 <li><span class="address_phone">+880 1735161598</span></li>
                 <li><span class="address_phone_mobile">+880 1975161598</span></li>
                 <li class="update-button">
-                  <a href="my-cart-step-2-info.html">Update<i class="fa fa-chevron-right"></i></a>
+                  <a href="<?=BASE_URL?>/checkoutShipping">Update<i class="fa fa-chevron-right"></i></a>
                 </li>                 
               </ul> 
               <!-- BILLING ADDRESS END -->
@@ -123,8 +123,8 @@
             <!-- ADDRESS AREA START --> 
             <!-- RETURNE-CONTINUE-SHOP START -->
             <div class="returne-continue-shop ship-address">
-              <a href="view/shop/layout/main.php" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
-              <a href="view/shop/cart/checkoutShipping.php" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
+              <a href="<?=BASE_URL?>" class="continueshoping"><i class="fa fa-chevron-left"></i>Continue shopping</a>
+              <a href="<?=BASE_URL?>/checkoutShipping" class="procedtocheckout">Proceed to checkout<i class="fa fa-chevron-right"></i></a>
             </div>  
             <!-- RETURNE-CONTINUE-SHOP END -->    
           </div>          
