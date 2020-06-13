@@ -10,7 +10,9 @@
                         <!-- ABOUT-US-AREA START -->
                         <div class="about-us-area">
                             <h2>About Us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            <p>Website for education purpose</p>
+                            <p>Human Computer Interaction, Faculty of Information Technology, 2020</p>
+                            <p>Team member: Nguyen Le Minh, Nguyen Minh Hang, Truong Thi Tham</p>
                         </div>
                         <!-- ABOUT-US-AREA END -->
 

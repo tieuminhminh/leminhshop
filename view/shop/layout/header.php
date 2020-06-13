@@ -134,11 +134,11 @@
                 <div class="header-right-menu">
                     <nav>
                         <ul class="list-inline">
-                            <li><a href="view/shop/cart/payment.php">Check Out</a></li>
-                            <li><a href="view/shop/wishlist/wishlist.php">Wishlist</a></li>
-                            <li><a href="view/shop/account/myAccount.php">My Account</a></li>
-                            <li><a href="view/shop/cart/viewCart.php">My Cart</a></li>
-                            <li><a href="view/shop/account/login.php">Sign in</a></li>
+                            <li><a href="<?=BASE_URL?>/checkoutSignin">Check Out</a></li>
+                            <li><a href="<?=BASE_URL?>/wishlist">Wishlist</a></li>
+                            <li><a href="<?=BASE_URL?>/myAccount">My Account</a></li>
+                            <li><a href="<?=BASE_URL?>/viewCart">My Cart</a></li>
+                            <li><a href="<?=BASE_URL?>/login">Sign in</a></li>
                         </ul>
                     </nav>
                 </div>

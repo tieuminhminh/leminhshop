@@ -13,4 +13,9 @@ class ShopController
     {
         require_once "view/admin/layout/main.php";
     }
+
+    public function _404()
+    {
+    require_once ('view/ErrorPage/404.php');
+    }
 }

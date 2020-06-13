@@ -9,7 +9,7 @@ redirect($request, $Route);
 
 function redirect($Request = null, $Route = [])
 {
-
+    $url = BASE_URL;
     if (empty($Request) || empty($Route)) {
         return;
     }
@@ -21,7 +21,7 @@ function redirect($Request = null, $Route = [])
     $path = parse_url($Request)['path'];
 
     if (!isset($Route[$path]) || empty($Route[$path])) {
-        header('HTTP/1.0 404 Not Found');
+       header("Location: $url/404");
         exit;
     }
 
@@ -29,12 +29,13 @@ function redirect($Request = null, $Route = [])
     if (CreateObject($list_check_obj))
         exit;
 
-    header('HTTP/1.0 404 Not Found');
+   header("Location: $url/404");
 
 }
 
 function CreateObject($list_str)
 {
+    $url = BASE_URL;
     $path = '';
     $id_class = -1;
     for ($i = 0; $i < count($list_str); $i++) {
@@ -58,7 +59,7 @@ function CreateObject($list_str)
             if (method_exists($object, $list_str[$i])) {
                 $object->{$list_str[$i]}();
             } else {
-                header('HTTP/1.0 404 Not Found');
+               header("Location: $url/404");
                 exit;
             }
         }
@@ -67,7 +68,7 @@ function CreateObject($list_str)
             if (function_exists($list_str[$i])) {
                 $list_str[$i]();
             } else {
-                header('HTTP/1.0 404 Not Found');
+               header("Location: $url/404");
                 exit;
             }
         }
