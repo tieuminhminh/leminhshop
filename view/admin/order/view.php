@@ -29,24 +29,22 @@
           <div class="col-12">
             <div class="card">
             <nav class="navbar navbar-expand navbar-secondary navbar-dark">
-                     
-            <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button>
+                     <div class="col-sm-1">
+            <button type="button" class="btn btn-outline-primary"><a href="<?= BASE_URL ?>/adminCreateOrder" style="color: white">Create</a></button>
 
-            
-                                
-                                
+                     </div>
+
+            <div class="col-lg-10">
                           
                       <!-- SEARCH FORM -->
                       
                       <form class="form-inline" style="margin-left:auto;">
                       <div class="col-sm">
                                     <select class="form-control" style="height: 31px; width: 180px; font-size: 15px;">
-                                        <option>Ordered</option>
-                                        <option>Cancel Order</option>
-                                        <option>Paid</option>
-                                        <option>Delivery</option>
-                                        <option>Received</option>
-                                        <option>Done</option>
+                                        <option>Pending</option>
+                                        <option>Invoice</option>
+                                        <option>Shipping</option>
+                                        <option>Complete</option>
                                     </select>
                                 </div>
                         <div class="input-group input-group-sm">
@@ -59,6 +57,7 @@
                           </div>
                         </div>
                       </form>
+            </div>
                     </nav>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0" style="color:gray">
@@ -69,7 +68,7 @@
                       <th>Username</th>
                       <th>Email</th>
                       <th>Address</th>
-                      <th>Product</th>
+                      <th>Status</th>
                       <th>Price</th>
                       <th>Shipping Cost</th>
                       <th>Total</th>
@@ -82,7 +81,7 @@
                       <td>Minh Hang</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>Hanoi City</td>
-                      <td>Jacket</td>
+                        <td><span class="badge badge-warning">Pending</span></td>
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
@@ -95,7 +94,7 @@
                       <td>Minh Hang</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>Hanoi City</td>
-                      <td>Jacket</td>
+                        <td><span class="badge badge-primary">Shipping</span></td>
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
@@ -108,7 +107,7 @@
                       <td>Minh Hang</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>Hanoi City</td>
-                      <td>Jacket</td>
+                        <td><span class="badge badge-warning">Pending</span></td>
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
@@ -121,7 +120,7 @@
                       <td>Minh Hang</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>Hanoi City</td>
-                      <td>Jacket</td>
+                        <td><span class="badge badge-success">Complete</span></td>
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
@@ -134,7 +133,7 @@
                       <td>Minh Hang</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>Hanoi City</td>
-                      <td>Jacket</td>
+                      <td><span class="badge badge-warning">Pending</span></td>
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>

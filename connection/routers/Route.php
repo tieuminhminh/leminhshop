@@ -18,6 +18,18 @@ $Route['/adminViewProduct'] = "controller/ProductsController/index";
 $Route['/adminCreateProduct'] = "controller/ProductsController/create";
 $Route['/adminUpdateProduct'] = "controller/ProductsController/update";
 
+//orders
+
+$Route['/adminViewOrder'] = "controller/OrderController/index";
+$Route['/adminCreateOrder'] = "controller/OrderController/create";
+$Route['/adminEditOrder'] = "controller/OrderController/edit";
+
+//post
+$Route['/adminViewPost'] = "controller/PostController/index";
+$Route['/adminCreatePost'] = "controller/PostController/create";
+$Route['/adminEditPost'] = "controller/PostController/edit";
+
+
 /** user sites */
 //cart
 

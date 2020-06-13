@@ -35,7 +35,8 @@
                             <div class="form-group row">
                                 <label for="sku" class="col-sm-2 col-form-label">Title</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="enter product name"
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           placeholder="enter product name"
                                            required>
                                 </div>
                             </div>
@@ -44,7 +45,8 @@
                             <div class="form-group row">
                                 <label for="sku" class="col-sm-2 col-form-label">Tag</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="enter product name"
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           placeholder="enter product name"
                                            required>
                                 </div>
                             </div>
@@ -66,7 +68,7 @@
                                         </div>
 
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <!-- Product Image -->
@@ -85,13 +87,16 @@
                             <!-- Product Category -->
                             <!-- Product Description -->
                             <div class="form-group row">
-                        <label for="sku" class="col-sm-2 col-form-label">Description</label>
-                        <div class="col-sm-10">
-                        <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
-                      </div>
-                      </div>
+                                <label for="sku" class="col-sm-2 col-form-label">Description</label>
+                                <div class="col-sm-10">
+                                    <div class="mb-3">
+                                        <textarea class="textarea" placeholder="Place some text here"
+                                                  style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                    </div>
+                                    </div>
+                            </div>
                             <!-- Product Description -->
-                            
+
                             <!-- Product Status -->
                             <div class="form-group row">
                                 <label for="sku" class="col-sm-2 col-form-label">Status</label>
@@ -119,12 +124,12 @@
     <script>
         function submit() {
             let data = new FormData();
-            data.append("name",$('#name').val());
-            data.append("price",$('#price').val());
-            data.append("image",$('#image').prop('files')[0]);
-            data.append("category",$('#category').val());
-            data.append("color",$('#color').val());
-            data.append("size",$('#size').val());
+            data.append("name", $('#name').val());
+            data.append("price", $('#price').val());
+            data.append("image", $('#image').prop('files')[0]);
+            data.append("category", $('#category').val());
+            data.append("color", $('#color').val());
+            data.append("size", $('#size').val());
 
             $.ajax({
                 url: "<?=BASE_URL?>/createProduct",
@@ -134,16 +139,16 @@
                 contentType: false,
                 cache: false,
                 data: data,
-                success: function(result) {
+                success: function (result) {
 
-                    if(result != null && result != ''){
+                    if (result != null && result != '') {
                         try {
                             $('#error').text(JSON.parse(result));
 
                             return;
                         } catch (e) {
                             $('#btnSubmit').delay(100).fadeOut('slow');
-                             $('#btnSubmit').delay(1000).fadeIn('slow');
+                            $('#btnSubmit').delay(1000).fadeIn('slow');
 
                             $('#name').val('');
                             $('#price').val('');
