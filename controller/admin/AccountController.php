@@ -1,28 +1,14 @@
 <?php
 
 
-class UserController
+class AccountController
 {
-
-    public function view()
-    {
-        require_once("view/admin/user/view.php");
-    }
-
-    public function create()
-    {
-        require_once("view/admin/user/create.php");
-    }
 
     public function edit()
     {
-        require_once("view/admin/user/edit.php");
+        require_once("view/admin/account/edit.php");
     }
 
-    public function delete()
-    {
-
-    }
 
 }
 

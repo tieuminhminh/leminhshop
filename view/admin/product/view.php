@@ -30,8 +30,7 @@
                 <div class="card">
                     <nav class="navbar navbar-expand navbar-secondary navbar-dark">
 
-                        <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create
-                        </button>
+                        <a href="<?=BASE_URL?>/adminCreateProduct"><button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button></a>
                         <!-- SEARCH FORM -->
                         <form class="form-inline" style="margin-left:auto;">
 
@@ -53,34 +52,62 @@
                             <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Image</th>
                                 <th>Product Name</th>
                                 <th>Price</th>
                                 <th>Color</th>
                                 <th>Size</th>
-
                             </tr>
                             </thead>
                             <tbody>
-                            <?php foreach ($data as $item): ?>
-                                <tr>
-                                    <td><?= $item['id'];?></td>
-                                    <td></i>
-                                        <img src="<?= $item['image'];?>" alt="product image">
-                                    </td>
-                                    <td><?= $item['name'];?></td>
-                                    <td><?= $item['prices'];?></td>
-                                    <td><?= $item['colors'];?></td>
-                                    <td><?= $item['sizes'];?></td>
+                            <tr>
+                                <td>1</td>
+                                <td>Dress</td>
+                                <td>2.000.000</td>
+                                <td>red, white, black</td>
+                                <td>S, M, L</td>
+                                <td><a href="<?=BASE_URL?>/adminEditProduct"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
+                            </tr>
 
-                                    <td>
-                                        <button type="button" class="btn btn-outline-success btn-sm">
-                                            <a href="<?=BASE_URL?>/updateProduct?id=<?=$item['id'];?>">Edit</a></button>
-                                        <button type="button" class="btn btn-outline-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Dress</td>
+                                <td>2.000.000</td>
+                                <td>red, white, black</td>
+                                <td>S, M, L</td>
+                                <td><a href="<?=BASE_URL?>/adminEditProduct"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
+                            </tr>
 
-                            <?php endforeach ?>
+                            <tr>
+                                <td>1</td>
+                                <td>Dress</td>
+                                <td>2.000.000</td>
+                                <td>red, white, black</td>
+                                <td>S, M, L</td>
+                                <td><a href="<?=BASE_URL?>/adminEditProduct"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Dress</td>
+                                <td>2.000.000</td>
+                                <td>red, white, black</td>
+                                <td>S, M, L</td>
+                                <td><a href="<?=BASE_URL?>/adminEditProduct"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Dress</td>
+                                <td>2.000.000</td>
+                                <td>red, white, black</td>
+                                <td>S, M, L</td>
+                                <td><a href="<?=BASE_URL?>/adminEditProduct"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
+                            </tr>
                             </tbody>
                         </table>
                     </div>

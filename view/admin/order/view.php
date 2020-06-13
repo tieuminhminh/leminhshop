@@ -85,7 +85,7 @@
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditOrder"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -98,7 +98,7 @@
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditOrder"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -111,7 +111,7 @@
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditOrder"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -124,7 +124,7 @@
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditOrder"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -137,7 +137,7 @@
                       <td>4.000.000</td>
                       <td>40.000</td>
                       <td>4.040.000</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditOrder"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 

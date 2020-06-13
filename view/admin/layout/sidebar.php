@@ -52,13 +52,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreateUser" class="nav-link">
                                 <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create User</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminEditUser" class="nav-link">
                                 <i class="far fa-edit nav-icon"></i>
                                 <p>Edit User</p>
                             </a>
@@ -74,7 +74,7 @@
                 <!-- Manage User End -->
                 <!-- Manage Role Start -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="<?=BASE_URL?>/adminViewRole" class="nav-link">
                         <i class="nav-icon fas fa-user-tag"></i>
                         <p>
                             Manage Role
@@ -83,19 +83,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminViewRole" class="nav-link">
                                 <i class="far fa-eye nav-icon"></i>
                                 <p>View Role</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreateRole" class="nav-link">
                                 <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Role</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminEditRole" class="nav-link">
                                 <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Role</p>
                             </a>
@@ -111,7 +111,7 @@
                 <!-- Manage Role End -->
                  <!-- Manage Category Start -->
                  <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="<?=BASE_URL?>/adminViewCategory" class="nav-link">
                         <i class="nav-icon fas fa-bars"></i>
                         <p>
                             Manage Category
@@ -120,19 +120,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminViewCategory" class="nav-link">
                                 <i class="far fa-eye nav-icon"></i>
                                 <p>View Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreateCategory" class="nav-link">
                                 <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminEditCategory" class="nav-link">
                                 <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Category</p>
                             </a>
@@ -148,7 +148,7 @@
                 <!-- Manage Category End -->
                 <!-- Manage Product Start -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="<?=BASE_URL?>/adminViewProduct" class="nav-link">
                         <i class="nav-icon fas fa-archive"></i>
                         <p>
                            Manage Product
@@ -157,19 +157,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminViewProduct" class="nav-link">
                                 <i class="far fa-eye nav-icon"></i>
                                 <p>View Product</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreateProduct" class="nav-link">
                                 <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Product</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminEditProduct" class="nav-link">
                                 <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Product</p>
                             </a>
@@ -185,7 +185,7 @@
                 <!-- Manage Product End -->
                 <!-- Manage Post Start -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="<?=BASE_URL?>/adminViewPost" class="nav-link">
                         <i class="nav-icon fas fa-paste"></i>
                         <p>
                             Manage Post
@@ -194,19 +194,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminViewPost" class="nav-link">
                                 <i class="far fa-eye nav-icon"></i>
                                 <p>View Post</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreatePost" class="nav-link">
                                 <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Post</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreatePost" class="nav-link">
                                 <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Post</p>
                             </a>
@@ -222,7 +222,7 @@
                 <!-- Manage Post End -->
                 <!-- Manage Order Start -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="<?=BASE_URL?>/adminViewOrder" class="nav-link">
                         <i class="nav-icon fas fa-shopping-cart"></i>
                         <p>
                             Manage Order
@@ -231,19 +231,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminViewOrder" class="nav-link">
                                 <i class="far fa-eye nav-icon"></i>
                                 <p>View Order</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminCreateOrder" class="nav-link">
                                 <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Order</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminEditOrder" class="nav-link">
                                 <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Order</p>
                             </a>
@@ -306,7 +306,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?=BASE_URL?>/adminEditAccount" class="nav-link">
                                 <i class="nav-icon fas fa-lock"></i>
                                 <p>Change Password</p>
                             </a>

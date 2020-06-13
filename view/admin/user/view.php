@@ -29,8 +29,8 @@
           <div class="col-12">
             <div class="card">
             <nav class="navbar navbar-expand navbar-secondary navbar-dark">
-                     
-            <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button>
+
+                <a href="<?=BASE_URL?>/adminCreateUser"><button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button></a>
                       <!-- SEARCH FORM -->
                       <form class="form-inline" style="margin-left:auto;">
                       
@@ -60,16 +60,16 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td><i class="fas fa-user-circle" style="font-size:40px; color:gray;"></i></td>
-                      <td>Minh Hang</td>
-                      <td>minh.hang.301198@gmail.com</td>
-                      <td>admin</td>
-                      <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
-                      <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
-                    </tr>
+                        <tr>
+                          <td>1</td>
+                          <td><i class="fas fa-user-circle" style="font-size:40px; color:gray;"></i></td>
+                          <td>Minh Hang</td>
+                          <td>minh.hang.301198@gmail.com</td>
+                          <td>admin</td>
+                          <td>active</td>
+                            <td><a href="<?=BASE_URL?>/adminEditUser"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
+                          <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
+                        </tr>
 
                     <tr>
                       <td>2</td>
@@ -78,7 +78,7 @@
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditUser"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -89,7 +89,7 @@
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditUser"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -100,7 +100,7 @@
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditUser"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -111,7 +111,7 @@
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditUser"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 

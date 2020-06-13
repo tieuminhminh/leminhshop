@@ -1,22 +1,22 @@
 <?php
 
 
-class RoleController
+class FileController
 {
 
     public function view()
     {
-        require_once("view/admin/role/view.php");
+        require_once("view/admin/file/view.php");
     }
 
     public function create()
     {
-        require_once("view/admin/role/create.php");
+        require_once("view/admin/file/create.php");
     }
 
     public function edit()
     {
-        require_once("view/admin/role/edit.php");
+        require_once("view/admin/file/edit.php");
     }
 
     public function delete()

@@ -12,29 +12,45 @@ $Route[''] = "controller/ShopController/homepage";
 
 $Route['/admin'] = "controller/ShopController/admin";
 
-//users
+//user
 $Route['/adminViewUser'] = "controller/admin/UserController/view";
-$Route['/adminViewUser'] = "controller/admin/UserController/create";
-$Route['/adminViewUser'] = "controller/admin/UserController/edit";
+$Route['/adminCreateUser'] = "controller/admin/UserController/create";
+$Route['/adminEditUser'] = "controller/admin/UserController/edit";
 
 //role
 $Route['/adminViewRole'] = "controller/admin/RoleController/view";
-//products
+$Route['/adminCreateRole'] = "controller/admin/RoleController/create";
+$Route['/adminEditRole'] = "controller/admin/RoleController/edit";
 
-$Route['/adminViewProduct'] = "controller/ProductsController/view";
-$Route['/adminCreateProduct'] = "controller/ProductsController/create";
-$Route['/adminUpdateProduct'] = "controller/ProductsController/update";
+//product
 
-//orders
+$Route['/adminViewProduct'] = "controller/admin/ProductController/view";
+$Route['/adminCreateProduct'] = "controller/admin/ProductController/create";
+$Route['/adminEditProduct'] = "controller/admin/ProductController/edit";
 
-$Route['/adminViewOrder'] = "controller/OrderController/index";
-$Route['/adminCreateOrder'] = "controller/OrderController/create";
-$Route['/adminEditOrder'] = "controller/OrderController/edit";
+//order
+
+$Route['/adminViewOrder'] = "controller/admin/OrderController/view";
+$Route['/adminCreateOrder'] = "controller/admin/OrderController/create";
+$Route['/adminEditOrder'] = "controller/admin/OrderController/edit";
 
 //post
-$Route['/adminViewPost'] = "controller/PostController/index";
-$Route['/adminCreatePost'] = "controller/PostController/create";
-$Route['/adminEditPost'] = "controller/PostController/edit";
+$Route['/adminViewPost'] = "controller/admin/PostController/view";
+$Route['/adminCreatePost'] = "controller/admin/PostController/create";
+$Route['/adminEditPost'] = "controller/admin/PostController/edit";
+
+//category
+$Route['/adminViewCategory'] = "controller/admin/CategoryController/view";
+$Route['/adminCreateCategory'] = "controller/admin/CategoryController/create";
+$Route['/adminEditCategory'] = "controller/admin/CategoryController/edit";
+
+// file
+$Route['/adminViewFile'] = "controller/admin/FileController/view";
+$Route['/adminCreateFile'] = "controller/admin/FileController/create";
+$Route['/adminEditFile'] = "controller/FileController/edit";
+
+//account
+$Route['/adminEditAccount'] = "controller/admin/AccountController/edit";
 
 
 /** user sites */

@@ -29,8 +29,8 @@
           <div class="col-12">
             <div class="card">
             <nav class="navbar navbar-expand navbar-secondary navbar-dark">
-                     
-            <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button>
+
+                <a href="<?=BASE_URL?>/adminCreatePost"><button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button></a>
                       <!-- SEARCH FORM -->
                       <form class="form-inline" style="margin-left:auto;">
                       
@@ -67,7 +67,7 @@
                       <td>Minh Hang</td>
                       <td>08/04/2020</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditPost"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -78,7 +78,7 @@
                       <td>Minh Hang</td>
                       <td>08/04/2020</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditPost"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -89,7 +89,7 @@
                       <td>Minh Hang</td>
                       <td>08/04/2020</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditPost"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -100,7 +100,7 @@
                       <td>Minh Hang</td>
                       <td>08/04/2020</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditPost"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -111,7 +111,7 @@
                       <td>Minh Hang</td>
                       <td>08/04/2020</td>
                       <td>active</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditPost"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 

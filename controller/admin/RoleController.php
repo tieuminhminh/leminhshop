@@ -11,12 +11,12 @@ class RoleController
 
     public function create()
     {
-
+        require_once("view/admin/role/create.php");
     }
 
-    public function update()
+    public function edit()
     {
-
+        require_once("view/admin/role/edit.php");
     }
 
     public function delete()

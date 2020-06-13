@@ -29,8 +29,8 @@
           <div class="col-12">
             <div class="card">
             <nav class="navbar navbar-expand navbar-secondary navbar-dark">
-                     
-            <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button>
+
+                <a href="<?=BASE_URL?>/adminCreateRole"><button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button></a>
                       <!-- SEARCH FORM -->
                       <form class="form-inline" style="margin-left:auto;">
                       
@@ -68,7 +68,7 @@
                       <td>admin</td>
                       
                       
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditRole"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -78,7 +78,7 @@
                       <td>Minh Hằng1</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditRole"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -88,7 +88,7 @@
                       <td>Minh Hằng2</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditRole"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -98,7 +98,7 @@
                       <td>Minh Hằng3</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditRole"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -108,7 +108,7 @@
                       <td>Minh Hằng4</td>
                       <td>minh.hang.301198@gmail.com</td>
                       <td>user</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditRole"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 

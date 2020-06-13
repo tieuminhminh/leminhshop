@@ -29,8 +29,8 @@
           <div class="col-12">
             <div class="card">
             <nav class="navbar navbar-expand navbar-secondary navbar-dark">
-                     
-            <button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button>
+
+                <a href="<?=BASE_URL?>/adminCreateCategory"><button type="button" class="btn bg-gradient-primary btn-sm" style="color: white;">Create</button></a>
                       <!-- SEARCH FORM -->
                       <form class="form-inline" style="margin-left:auto;">
                       
@@ -65,7 +65,7 @@
                       <td>Category1</td>
                       <td>category1</td>
                       
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditCategory"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -74,7 +74,7 @@
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
                       <td>Category2</td>
                       <td>category2</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditCategory"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -83,7 +83,7 @@
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
                       <td>Category3</td>
                       <td>category3</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditCategory"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
@@ -92,7 +92,7 @@
                       <td><i class="fas fa-user-circle" style="font-size:40px; color:grey;"></i></td>
                       <td>Category4</td>
                       <td>category4</td>
-                      <td><button type="button" class="btn btn-outline-success btn-sm">Edit</button>
+                        <td><a href="<?=BASE_URL?>/adminEditCategory"><button type="button" class="btn btn-outline-success btn-sm">Edit</button></a>
                       <button type="button" class="btn btn-outline-danger btn-sm">Delete</button></td>
                     </tr>
 
