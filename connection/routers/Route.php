@@ -12,9 +12,14 @@ $Route[''] = "controller/ShopController/homepage";
 
 $Route['/admin'] = "controller/ShopController/admin";
 
+//users
+$Route['/adminViewUser'] = "controller/admin/UserController/view";
+
+//role
+$Route['/adminViewRole'] = "controller/admin/RoleController/view";
 //products
 
-$Route['/adminViewProduct'] = "controller/ProductsController/index";
+$Route['/adminViewProduct'] = "controller/ProductsController/view";
 $Route['/adminCreateProduct'] = "controller/ProductsController/create";
 $Route['/adminUpdateProduct'] = "controller/ProductsController/update";
 

@@ -37,8 +37,8 @@
 
                 <!-- Manage User Start -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                    <a href="<?=BASE_URL?>/adminViewUser" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
                         <p>
                             Manage User
                             <i class="fas fa-angle-left right"></i>
@@ -46,26 +46,26 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                            <a href="<?=BASE_URL?>/adminViewUser" class="nav-link">
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View User</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create User</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit User</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete User</p>
                             </a>
                         </li>
@@ -75,7 +75,7 @@
                 <!-- Manage Role Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-user-tag"></i>
                         <p>
                             Manage Role
                             <i class="fas fa-angle-left right"></i>
@@ -84,25 +84,25 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View Role</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Role</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Role</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete Role</p>
                             </a>
                         </li>
@@ -112,7 +112,7 @@
                  <!-- Manage Category Start -->
                  <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-bars"></i>
                         <p>
                             Manage Category
                             <i class="fas fa-angle-left right"></i>
@@ -121,25 +121,25 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete Category</p>
                             </a>
                         </li>
@@ -158,25 +158,25 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View Product</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Product</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Product</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete Product</p>
                             </a>
                         </li>
@@ -186,7 +186,7 @@
                 <!-- Manage Post Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-paste"></i>
                         <p>
                             Manage Post
                             <i class="fas fa-angle-left right"></i>
@@ -195,25 +195,25 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View Post</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Post</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Post</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete Post</p>
                             </a>
                         </li>
@@ -223,7 +223,7 @@
                 <!-- Manage Order Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-shopping-cart"></i>
                         <p>
                             Manage Order
                             <i class="fas fa-angle-left right"></i>
@@ -232,25 +232,25 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View Order</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create Order</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit Order</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete Order</p>
                             </a>
                         </li>
@@ -261,7 +261,7 @@
                 <!-- Manage File Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-file"></i>
                         <p>
                             Manage File
                             <i class="fas fa-angle-left right"></i>
@@ -270,25 +270,25 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>View File</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-plus-square nav-icon"></i>
                                 <p>Create File</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-edit nav-icon"></i>
                                 <p>Edit File</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-trash-alt nav-icon"></i>
                                 <p>Delete File</p>
                             </a>
                         </li>
@@ -298,7 +298,7 @@
                 <!-- Manage Account Start -->
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-archive"></i>
+                        <i class="nav-icon fas fa-user-circle"></i>
                         <p>
                             Manage Account
                             <i class="fas fa-angle-left right"></i>
@@ -307,13 +307,13 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="nav-icon fas fa-lock"></i>
                                 <p>Change Password</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="nav-icon fas fa-sign-out-alt"></i>
                                 <p>Logout</p>
                             </a>
                         </li>
