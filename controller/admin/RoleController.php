@@ -1,16 +1,16 @@
 <?php
 
-class ProductsController
+
+class RoleController
 {
 
     public function view()
     {
-echo "asdf";
+        require_once("view/admin/role/view.php");
     }
 
     public function create()
     {
-        require_once ("view/admin/product/create.php");
 
     }
 
@@ -18,7 +18,6 @@ echo "asdf";
     {
 
     }
-
 
     public function delete()
     {
